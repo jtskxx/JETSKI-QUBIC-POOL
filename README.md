@@ -221,7 +221,7 @@ Once downloaded, open the `start.bat` file and update it with your settings
 ### **To start mining on a MacOS distribution, follow these steps:**
 
 ### **1️⃣ Download Docker**
-- **Step 1:** Open the Terminal app on your Mac. You can find it by typing Terminal into the macOS Spotlight Search (press **Cmd + Space** to open it).
+- **Step 1:** Open the Terminal app on your Mac. You can find it by typing `Terminal` into the macOS Spotlight Search (press **Cmd + Space** to open it).
 - **Step 2:** Once the terminal window is open, paste the script and press **Enter** to run it.
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && brew install --cask docker && open -a Docker && while ! docker system info > /dev/null 2>&1; do sleep 1; done
@@ -262,7 +262,7 @@ Once downloaded, open the `start.bat` file and update it with your settings
 - **SOLO Mining CPU:** `docker run --rm jetskipool/miner:qjetski-pplns-cpu -w WALLET`
 - **SOLO Mining GPU:** `docker run --gpus all --rm jetskipool/miner:qjetski-solo-gpu -w WALLET`
 
-You can run CPU + GPU mining simultaneously using the GPU version of the miner.
+You can run **CPU + GPU** mining simultaneously using the GPU version of the miner.
 
 To do so, add the following flags to your command:
 `-cpu -gpu -w WALLET`
