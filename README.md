@@ -233,6 +233,8 @@ Once downloaded, open the `start.bat` file and update it with your settings
 > [!NOTE]
 > PPLNS mining is currently recommended if you're using only one CPU or GPU.
 > This recommendation may change with future updates to neural network training settings. Stay tuned on our Discord for the latest announcements.
+>
+> Mac users with a single laptop must use PPLNS CPU mining ⚠️
 
 ### <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExazVyOWV6N2ZoMXFnb2lheDJlaTBqOHp5d2J3ZTRvZmxkajNwOWtibiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q2tN4Ewh5uUtlWDgoI/giphy.gif" width="30px"> PPLNS: <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExazVyOWV6N2ZoMXFnb2lheDJlaTBqOHp5d2J3ZTRvZmxkajNwOWtibiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q2tN4Ewh5uUtlWDgoI/giphy.gif" width="30px">
 
@@ -261,6 +263,11 @@ Once downloaded, open the `start.bat` file and update it with your settings
 
 - **SOLO Mining CPU:** `docker run --rm jetskipool/miner:qjetski-pplns-cpu -w WALLET`
 - **SOLO Mining GPU:** `docker run --gpus all --rm jetskipool/miner:qjetski-solo-gpu -w WALLET`
+
+- **Example:**
+```sh
+docker run --rm jetskipool/miner:qjetski-pplns-cpu -w ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHI
+```
 
 You can run **CPU + GPU** mining simultaneously using the GPU version of the miner.
 
