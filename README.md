@@ -21,9 +21,11 @@
 
 1. ⚙️ [NVIDIA GPU Requirements](#%EF%B8%8F-nvidia-gpu-requirements)  
 2. 🌴 [HiveOS Setup](#%EF%B8%8F-flight-sheet-configuration)  
-3. 🪼 [Linux-CLI Setup](#-linux-cli-setup-)
-4. <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="18px"> [Windows Setup](#-windows-setup-)  
-5. 🔥 [Recommended GPU Overclocks](#recommended-gpu-overclocks)  
+3. 🥥 [Linux-CLI Setup](#-linux-cli-setup-)
+4. <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="18px"> [Windows Setup](#-windows-setup-)
+5. 🌊 [MacOS-CLI Setup](#-macos-cli-setup-)
+6. ⛵ [Docker Setup](#-docker-setup-)
+7. 🔥 [Recommended GPU Overclocks](#recommended-gpu-overclocks)  
 
 <br/>
 
@@ -206,3 +208,85 @@ Once downloaded, open the `start.bat` file and update it with your settings
 > Change ``CPU/GPU & Idle config`` by relaunching start.bat
 
 ### **✅ You're now ready to start mining! 🚀💰**
+
+<br>
+
+# <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2dobmcxcWJvMXo0Ym1wNWFnd3Fpa3g0ZmM2M2xvdWhwcG15amtqMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3oKIPic2BnoVZkRla8/giphy.gif" width="30px"> MacOS-CLI Setup <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2dobmcxcWJvMXo0Ym1wNWFnd3Fpa3g0ZmM2M2xvdWhwcG15amtqMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3oKIPic2BnoVZkRla8/giphy.gif" width="30px">
+
+> [!NOTE]
+> Currently, only macOS devices with Intel CPUs are supported for mining. Support for Apple Silicon (ARM) is coming soon, which will also enable mining on mobile devices with ARM architecture.
+
+
+
+### **To start mining on a MacOS distribution, follow these steps:**
+
+### **1️⃣ Download Docker**
+- **Step 1:** Open the Terminal app on your Mac. You can find it by typing Terminal into the macOS Spotlight Search (press **Cmd + Space** to open it).
+- **Step 2:** Once the terminal window is open, paste the script and press **Enter** to run it.
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && brew install --cask docker && open -a Docker && while ! docker system info > /dev/null 2>&1; do sleep 1; done
+```
+<br>
+
+### **2️⃣ Download the Miner**
+Go to https://download.jetskipool.ai/ to get the appropriate miner
+
+> [!NOTE]
+> PPLNS mining is currently recommended if you're using only one CPU or GPU.
+> This recommendation may change with future updates to neural network training settings. Stay tuned on our Discord for the latest announcements.
+
+### <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExazVyOWV6N2ZoMXFnb2lheDJlaTBqOHp5d2J3ZTRvZmxkajNwOWtibiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q2tN4Ewh5uUtlWDgoI/giphy.gif" width="30px"> PPLNS: <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExazVyOWV6N2ZoMXFnb2lheDJlaTBqOHp5d2J3ZTRvZmxkajNwOWtibiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q2tN4Ewh5uUtlWDgoI/giphy.gif" width="30px">
+
+- **PPLNS Mining CPU:** `docker pull jetskipool/miner:qjetski-pplns-cpu`
+- **PPLNS Mining GPU:** `docker pull jetskipool/miner:qjetski-pplns-gpu`
+
+### <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWx2ZjZodXlpbmNqb2V1NjRvNno2aXlrbWowamJjem1wNXNnNGV6bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2I0Akxup0XNSw/giphy.gif" width="30px"> SOLO: <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWx2ZjZodXlpbmNqb2V1NjRvNno2aXlrbWowamJjem1wNXNnNGV6bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2I0Akxup0XNSw/giphy.gif" width="30px">
+
+- **SOLO Mining CPU:** `docker pull jetskipool/miner:qjetski-solo-cpu`
+- **SOLO Mining GPU:** `docker pull jetskipool/miner:qjetski-solo-gpu`
+
+<br>
+
+### **3️⃣ Launch the Miner**
+> [!IMPORTANT]
+> Run the command that corresponds to the miner you downloaded.
+> 
+> Make sure to include your Qubic Wallet address after the **-w** flag.
+
+### <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExazVyOWV6N2ZoMXFnb2lheDJlaTBqOHp5d2J3ZTRvZmxkajNwOWtibiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q2tN4Ewh5uUtlWDgoI/giphy.gif" width="30px"> PPLNS: <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExazVyOWV6N2ZoMXFnb2lheDJlaTBqOHp5d2J3ZTRvZmxkajNwOWtibiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q2tN4Ewh5uUtlWDgoI/giphy.gif" width="30px">
+
+- **PPLNS Mining CPU:** `docker run --rm jetskipool/miner:qjetski-pplns-cpu -w WALLET`
+- **PPLNS Mining GPU:** `docker run --gpus all --rm jetskipool/miner:qjetski-pplns-gpu -w WALLET`
+
+### <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWx2ZjZodXlpbmNqb2V1NjRvNno2aXlrbWowamJjem1wNXNnNGV6bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2I0Akxup0XNSw/giphy.gif" width="30px"> SOLO: <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWx2ZjZodXlpbmNqb2V1NjRvNno2aXlrbWowamJjem1wNXNnNGV6bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2I0Akxup0XNSw/giphy.gif" width="30px">
+
+- **SOLO Mining CPU:** `docker run --rm jetskipool/miner:qjetski-pplns-cpu -w WALLET`
+- **SOLO Mining GPU:** `docker run --gpus all --rm jetskipool/miner:qjetski-solo-gpu -w WALLET`
+
+You can run CPU + GPU mining simultaneously using the GPU version of the miner.
+
+To do so, add the following flags to your command:
+`-cpu -gpu -w WALLET`
+
+<br>
+
+# <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXVtcGNwZDd1Z2tldjE5NXNyOTc0M2R0bmhnazg0ZDl4aGQxZmZieSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ViCcQEvD4yYHUZKguG/giphy.gif" width="30px"> Docker Setup <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXVtcGNwZDd1Z2tldjE5NXNyOTc0M2R0bmhnazg0ZDl4aGQxZmZieSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ViCcQEvD4yYHUZKguG/giphy.gif" width="30px">
+
+### **Docker Deployment:**
+Docker images are available for large-scale deployments. These images are ideal for use with rental platforms such as Vast.ai, Salad, and Clore.AI.
+
+**Below are the available Docker images and their corresponding run options:**
+
+### <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWN4eWFmeHliN3V0YXhkN2xyYmpmN3dkdHYxa3FkYXdmMGZia3FjdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/8ynOqCkWDpf5C/giphy.gif" width="30px"> Docker Images: <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWN4eWFmeHliN3V0YXhkN2xyYmpmN3dkdHYxa3FkYXdmMGZia3FjdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/8ynOqCkWDpf5C/giphy.gif" width="30px">
+
+- **PPLNS Mining CPU:** `docker pull jetskipool/miner:qjetski-pplns-cpu`
+- **PPLNS Mining GPU:** `docker pull jetskipool/miner:qjetski-pplns-gpu`
+- **SOLO Mining CPU:** `docker pull jetskipool/miner:qjetski-solo-cpu`
+- **SOLO Mining GPU:** `docker pull jetskipool/miner:qjetski-solo-gpu`
+
+### <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHF6YnhpMDV3ajFiZzh6aHgwbng0YzBseHdieHY2MTA5OHdudjM2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/HrRvnN7NuJy4InG4MV/giphy.gif" width="30px"> Quick Start Command: <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHF6YnhpMDV3ajFiZzh6aHgwbng0YzBseHdieHY2MTA5OHdudjM2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/HrRvnN7NuJy4InG4MV/giphy.gif" width="30px">
+
+- **PPLNS Mining CPU:** `docker run --rm jetskipool/miner:qjetski-pplns-cpu -w WALLET`
+- **PPLNS Mining GPU:** `docker run --gpus all --rm jetskipool/miner:qjetski-pplns-gpu -w WALLET`
+- **SOLO Mining CPU:** `docker run --rm jetskipool/miner:qjetski-pplns-cpu -w WALLET`
+- **SOLO Mining GPU:** `docker run --gpus all --rm jetskipool/miner:qjetski-solo-gpu -w WALLET`
