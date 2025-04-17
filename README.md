@@ -229,7 +229,6 @@ Once downloaded, open the `start.bat` file and update it with your settings
 <br>
 
 ### **2️⃣ Download the Miner**
-Go to https://download.jetskipool.ai/ to get the appropriate miner
 
 > [!NOTE]
 > PPLNS mining is currently recommended if you're using only one CPU or GPU.
