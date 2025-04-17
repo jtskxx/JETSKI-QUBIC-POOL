@@ -234,7 +234,7 @@ Once downloaded, open the `start.bat` file and update it with your settings
 > PPLNS mining is currently recommended if you're using only one CPU or GPU.
 > This recommendation may change with future updates to neural network training settings. Stay tuned on our Discord for the latest announcements.
 >
-> Mac users with a single laptop must use PPLNS CPU mining ⚠️
+> ⚠️Mac users with a single laptop must use PPLNS Mining CPU⚠️
 
 ### <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExazVyOWV6N2ZoMXFnb2lheDJlaTBqOHp5d2J3ZTRvZmxkajNwOWtibiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q2tN4Ewh5uUtlWDgoI/giphy.gif" width="30px"> PPLNS: <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExazVyOWV6N2ZoMXFnb2lheDJlaTBqOHp5d2J3ZTRvZmxkajNwOWtibiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q2tN4Ewh5uUtlWDgoI/giphy.gif" width="30px">
 
