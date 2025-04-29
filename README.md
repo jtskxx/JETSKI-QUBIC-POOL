@@ -65,6 +65,7 @@ nvidia-driver-update
 ### ☀️GPU mining☀️ ###
 ```
 nvtool OR EMPTY TO USE HIVEOS DASHBOARD OC
+"xmrCustom":"-a rx/0 -u WALLET.WORKERNAME"
 ```
 
 ### 🏖️CPU mining🏖️ ###
@@ -76,13 +77,22 @@ nvtool OR EMPTY TO USE HIVEOS DASHBOARD OC
 ```
 "cpuOnly":"yes"
 "hugePages":xxxx
+"xmrCustom":"-a rx/0 -u WALLET.WORKERNAME"
 ```
 ### ⚡GPU+CPU (Dual mining)⚡ ###
 ```
 nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 "amountOfThreads":0
 "hugePages":xxxx
+"xmrCustom":"-a rx/0 -u WALLET.WORKERNAME"
 ```
+
+### ⚙️ XMR Configuration
+
+| Setting | Default Value |Description                                                                                                                                                                                                                                  |
+| ---- |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ```"xmrMining"``` | `true` | Enable or disable XMR mining |
+| ```"xmrGpu":``` | `false` | Enable or disable GPU mining |
 ## 💦Recommended GPU overclocks💦
 
 3000 series ```nvtool --setcoreoffset 150 --setclocks 1500 --setmem 5001 --setmemoffset 2000```  
@@ -103,7 +113,7 @@ nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 
 - **Extra Config Arguments Example:**
 ```json
-"idleSettings":{"command":"/hive/miners/rigel/1.19.4/rigel","arguments":"-a xelishashv2 -o stratum+tcp://fr.xelskipool.xyz:9191 -u XELWLT -w %WORKER_NAME%"}
+"idleSettings":{"command":"/hive/miners/rigel/1.21.2/rigel","arguments":"-a xelishashv2 -o stratum+tcp://fr.xelskipool.xyz:9191 -u XELWLT -w %WORKER_NAME%"}
 ```
 <br>
 
