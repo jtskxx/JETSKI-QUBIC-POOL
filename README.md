@@ -93,6 +93,8 @@ nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 | ---- |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ```"xmrMining"``` | `true` | Enable or disable XMR mining |
 | ```"xmrGpu":``` | `false` | Enable or disable GPU mining |
+| ```"xmrPool":``` | `xmrski.jetskipool.ai:5555` | `xmrski.jetskipool.ai:5555` ▶️ **XMR QUBIC + XMR Network OR** `xmrskiqubic.jetskipool.ai:3333` ▶️ **XMR QUBIC Only** |
+
 ## 💦Recommended GPU overclocks💦
 
 3000 series ```nvtool --setcoreoffset 150 --setclocks 1500 --setmem 5001 --setmemoffset 2000```  
