@@ -95,7 +95,7 @@ nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 > [!NOTE]
 >  **🌐 Stratum Server Options 🌐**
 > 
->### **1️⃣ `xmrski.jetskipool.ai:5555`**
+>### **1️⃣ `xmrski.jetskipool.ai:5555` *(Default)***
 >- Sends shares to the Qubic XMR network.
 >- When enough XMR shares are submitted and the pool ranks in the **Top 451** computors, it automatically switches to the Monero network.
 >- Miners are paid in XMR to the wallet address configured in their miner.
