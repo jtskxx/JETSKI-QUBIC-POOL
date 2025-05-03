@@ -65,6 +65,7 @@ nvidia-driver-update
 ### ☀️GPU mining☀️ ###
 ```
 nvtool OR EMPTY TO USE HIVEOS DASHBOARD OC
+"xmrMining":true
 "xmrCustom":"-a rx/0 -u WALLET.%WORKER_NAME%"
 ```
 
@@ -77,6 +78,7 @@ nvtool OR EMPTY TO USE HIVEOS DASHBOARD OC
 ```
 "cpuOnly":"yes"
 "hugePages":xxxx
+"xmrMining":true
 "xmrCustom":"-a rx/0 -u WALLET.%WORKER_NAME%"
 ```
 ### ⚡GPU+CPU (Dual mining)⚡ ###
@@ -84,16 +86,32 @@ nvtool OR EMPTY TO USE HIVEOS DASHBOARD OC
 nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 "amountOfThreads":0
 "hugePages":xxxx
+"xmrMining":true
 "xmrCustom":"-a rx/0 -u WALLET.%WORKER_NAME%"
 ```
 
-### ⚙️ XMR Configuration
+## ⚙️ XMR Configuration
+
+> [!NOTE]
+>  **🌐 Stratum Server Options 🌐**
+> 
+>### **1️⃣ `xmrski.jetskipool.ai:5555`**
+>- Sends shares to the Qubic XMR network.
+>- When enough XMR shares are submitted and the pool ranks in the **Top 451** computors, it automatically switches to the Monero network.
+>- Miners are paid in XMR to the wallet address configured in their miner.
+>  
+>### **2️⃣ `xmrskiqubic.jetskipool.ai:3333`**
+>- All shares are attributed only to the Qubic XMR network to support the outsourced computing project.
+>- No wallet needed — no Monero rewards.
 
 | Setting | Default Value |Description                                                                                                                                                                                                                                  |
 | ---- |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ```"xmrMining"``` | `true` | Enable or disable XMR mining |
 | ```"xmrGpu":``` | `false` | Enable or disable GPU mining |
 | ```"xmrPool":``` | `xmrski.jetskipool.ai:5555` | `xmrski.jetskipool.ai:5555` ▶️ **XMR QUBIC + XMR Network OR** `xmrskiqubic.jetskipool.ai:3333` ▶️ **XMR QUBIC Only** |
+| ```"xmrCustom"``` | `WALLET.%WORKER_NAME%"` | Enter your XMR wallet to earn extra rewards when the pool switches to Monero |
+
+<br>
 
 ## 💦Recommended GPU overclocks💦
 
@@ -105,7 +123,7 @@ nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 ## 🧪 Advanced Settings
 ### <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3ludjVkdDAwOWF0aHJwbGJnd3RldmF0OHI5OGNwdHl4MzlqZjN4MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dHM/ITlBDhuVFZOrsGCUqu/giphy.gif" width="30px"> Idle Phase Feature <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3ludjVkdDAwOWF0aHJwbGJnd3RldmF0OHI5OGNwdHl4MzlqZjN4MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dHM/ITlBDhuVFZOrsGCUqu/giphy.gif" width="30px">
 > [!NOTE]
-> During the Qubic idling phase, you can run another program or miner.
+> During the Qubic idling phase, you can run another program or miner
 > 
 > The example below is for mining on the Xelis pool (Xelski) https://xelskipool.xyz/
 > 
