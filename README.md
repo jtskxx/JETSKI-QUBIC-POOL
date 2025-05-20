@@ -81,7 +81,6 @@ nvtool OR EMPTY TO USE HIVEOS DASHBOARD OC
 ```
 "cpuOnly":"yes"
 "hugePages":xxxx
-"xmrMining":true
 "xmrCustom":"-a rx/0 -u WALLET.%WORKER_NAME%"
 ```
 ### ⚡GPU+CPU (Dual mining)⚡ ###
@@ -89,7 +88,6 @@ nvtool OR EMPTY TO USE HIVEOS DASHBOARD OC
 nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 "amountOfThreads":0
 "hugePages":xxxx
-"xmrMining":true
 "xmrCustom":"-a rx/0 -u WALLET.%WORKER_NAME%"
 ```
 
