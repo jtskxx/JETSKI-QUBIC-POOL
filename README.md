@@ -96,7 +96,7 @@ nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 > [!NOTE]
 >  **🌐 Stratum Server Options 🌐**
 >
-> ### **1️⃣ `xmrskiqubic.jetskipool.ai:3333` *(Default)***
+> ### **1️⃣ `qxmr.jetskipool.ai:3333` *(Default)***
 >- All shares are attributed only to the Qubic XMR network to support the outsourced computing project
 >- No wallet needed — no Monero rewards
 >  
@@ -110,7 +110,7 @@ nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 | ---- |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ```"xmrMining"``` | `true` | Enable or disable XMR mining |
 | ```"xmrGpu":``` | `false` | Enable or disable GPU mining |
-| ```"xmrPool":``` | `xmrski.jetskipool.ai:5555` | `xmrski.jetskipool.ai:5555` ▶️ **XMR QUBIC + XMR Network OR** `xmrskiqubic.jetskipool.ai:3333` ▶️ **XMR QUBIC Only** |
+| ```"xmrPool":``` | `xmrski.jetskipool.ai:5555` | `xmrski.jetskipool.ai:5555` ▶️ **XMR QUBIC + XMR Network OR** `qxmr.jetskipool.ai:3333` ▶️ **XMR QUBIC Only** |
 | ```"xmrCustom"``` | `WALLET.%WORKER_NAME%"` | Enter your XMR wallet to earn extra rewards when the pool switches to Monero |
 
 <br>
