@@ -69,7 +69,6 @@ nvidia-driver-update
 ```
 nvtool OR EMPTY TO USE HIVEOS DASHBOARD OC
 "xmrMining":true
-"xmrCustom":"-a rx/0 -u WALLET.%WORKER_NAME%"
 ```
 
 ### 🏖️CPU mining🏖️ ###
@@ -81,14 +80,12 @@ nvtool OR EMPTY TO USE HIVEOS DASHBOARD OC
 ```
 "cpuOnly":"yes"
 "hugePages":xxxx
-"xmrCustom":"-a rx/0 -u WALLET.%WORKER_NAME%"
 ```
 ### ⚡GPU+CPU (Dual mining)⚡ ###
 ```
 nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 "amountOfThreads":0
 "hugePages":xxxx
-"xmrCustom":"-a rx/0 -u WALLET.%WORKER_NAME%"
 ```
 
 ## ⚙️ XMR Configuration
