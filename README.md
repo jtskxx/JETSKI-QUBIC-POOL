@@ -68,7 +68,6 @@ nvidia-driver-update
 ### ☀️GPU mining☀️ ###
 ```
 nvtool OR EMPTY TO USE HIVEOS DASHBOARD OC
-"xmrMining":true
 ```
 
 ### 🏖️CPU mining🏖️ ###
