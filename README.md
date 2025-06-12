@@ -247,31 +247,8 @@ Once downloaded, open the `start.bat` file and update it with your settings
 ```
 <br>
 
-### **2️⃣ Download the Miner**
-
-> [!NOTE]
-> PPLNS mining is currently recommended if you're using only one CPU or GPU.
-> This recommendation may change with future updates to neural network training settings. Stay tuned on our Discord for the latest announcements.
->
-> ⚠️Mac users with a single laptop must use PPLNS Mining CPU⚠️
-
-### <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExazVyOWV6N2ZoMXFnb2lheDJlaTBqOHp5d2J3ZTRvZmxkajNwOWtibiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q2tN4Ewh5uUtlWDgoI/giphy.gif" width="30px"> PPLNS: <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExazVyOWV6N2ZoMXFnb2lheDJlaTBqOHp5d2J3ZTRvZmxkajNwOWtibiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q2tN4Ewh5uUtlWDgoI/giphy.gif" width="30px">
-
-- **PPLNS Mining CPU:** `docker pull jetskipool/miner:qjetski-pplns-cpu`
-- **PPLNS Mining GPU:** `docker pull jetskipool/miner:qjetski-pplns-gpu`
-
-### <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWx2ZjZodXlpbmNqb2V1NjRvNno2aXlrbWowamJjem1wNXNnNGV6bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2I0Akxup0XNSw/giphy.gif" width="30px"> SOLO: <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWx2ZjZodXlpbmNqb2V1NjRvNno2aXlrbWowamJjem1wNXNnNGV6bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2I0Akxup0XNSw/giphy.gif" width="30px">
-
-- **SOLO Mining CPU:** `docker pull jetskipool/miner:qjetski-solo-cpu`
-- **SOLO Mining GPU:** `docker pull jetskipool/miner:qjetski-solo-gpu`
-
-<br>
-
-### **3️⃣ Launch the Miner**
-> [!IMPORTANT]
-> Run the command that corresponds to the miner you downloaded.
-> 
-> Make sure to include your Qubic Wallet address after the **-w** flag.
+### **2️⃣ Launch the Miner**
+> ⚠️Mac users with a single laptop must use the CPU Version⚠️
 
 ### <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExazVyOWV6N2ZoMXFnb2lheDJlaTBqOHp5d2J3ZTRvZmxkajNwOWtibiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q2tN4Ewh5uUtlWDgoI/giphy.gif" width="30px"> PPLNS: <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExazVyOWV6N2ZoMXFnb2lheDJlaTBqOHp5d2J3ZTRvZmxkajNwOWtibiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q2tN4Ewh5uUtlWDgoI/giphy.gif" width="30px">
 
@@ -301,13 +278,6 @@ To do so, add the following flags to your command:
 Docker images are available for large-scale deployments. These images are ideal for use with rental platforms such as Vast.ai, Salad, and Clore.AI.
 
 **Below are the available Docker images and their corresponding run options:**
-
-### <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWN4eWFmeHliN3V0YXhkN2xyYmpmN3dkdHYxa3FkYXdmMGZia3FjdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/8ynOqCkWDpf5C/giphy.gif" width="30px"> Docker Images: <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWN4eWFmeHliN3V0YXhkN2xyYmpmN3dkdHYxa3FkYXdmMGZia3FjdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/8ynOqCkWDpf5C/giphy.gif" width="30px">
-
-- **PPLNS Mining CPU:** `docker pull jetskipool/miner:qjetski-pplns-cpu`
-- **PPLNS Mining GPU:** `docker pull jetskipool/miner:qjetski-pplns-gpu`
-- **SOLO Mining CPU:** `docker pull jetskipool/miner:qjetski-solo-cpu`
-- **SOLO Mining GPU:** `docker pull jetskipool/miner:qjetski-solo-gpu`
 
 ### <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHF6YnhpMDV3ajFiZzh6aHgwbng0YzBseHdieHY2MTA5OHdudjM2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/HrRvnN7NuJy4InG4MV/giphy.gif" width="30px"> Quick Start Command: <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHF6YnhpMDV3ajFiZzh6aHgwbng0YzBseHdieHY2MTA5OHdudjM2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/HrRvnN7NuJy4InG4MV/giphy.gif" width="30px">
 
