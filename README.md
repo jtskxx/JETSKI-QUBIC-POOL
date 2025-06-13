@@ -87,17 +87,21 @@ nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 "hugePages":xxxx
 ```
 
-## ⚙️ XMR Configuration [UPDATE COMING THIS WEEK]
+## ⚙️ XMR Configuration
 
-> [!NOTE]
->  **🌐 Stratum Server Options 🌐**
->
-> ### **1️⃣ `qxmr.jetskipool.ai:3333` *(Default)***
-> 
+During **Qubic Idling**, the **XMR Proof-of-Concept (POC)** starts automatically. Each valid share is rewarded as an **extra bonus**
+
+**CPU mining of XMR is mandatory**, as the shares are tied to the pool computors identities and are required to maintain **100%** of pool revenue.
+
+**XMR mining** is enabled by **default** when CPU mining is active, no extra configuration is needed
+
+You can view your **XMR stats** along with the total sols by wallet on the respective dashboards
+
+
 
 | Setting | Default Value |Description                                                                                                                                                                                                                                  |
 | ---- |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ```"xmrMining"``` | `true` | Enable or disable XMR mining |
+| ```"xmrMining":``` | `true` | Enable or disable XMR mining |
 | ```"xmrGpu":``` | `false` | Enable or disable GPU mining |
 
 <br>
