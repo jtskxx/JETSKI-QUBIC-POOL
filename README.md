@@ -187,8 +187,8 @@ Once downloaded, open the JSON configuration file and update it with your settin
 
 ### **1️⃣ Download the Miner**
 Go to https://download.jetskipool.ai/ to get the appropriate miner
-- **Solo Mining:** `qjetski-3.1.1-windows.zip`
-- **PPLNS Mining:** `qjetski-PPLNS-3.1.1-windows.zip`
+- **Solo Mining:** `qjetski-3.4-windows.zip`
+- **PPLNS Mining:** `qjetski-PPLNS-3.4-windows.zip`
 
 <br>
 
