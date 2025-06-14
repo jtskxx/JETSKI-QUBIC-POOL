@@ -143,16 +143,16 @@ You can view your **XMR stats** along with the total sols by wallet on the respe
 
 ### **1️⃣ Download the Miner**
 Go to https://download.jetskipool.ai/ to get the appropriate miner
-- **Solo Mining:** `qjetski-3.1.3-Linux`
-- **PPLNS Mining:** `qjetski.PPLNS-3.1.3-Linux.tar.gz`
+- **Solo Mining:** `qjetski-3.4-Linux`
+- **PPLNS Mining:** `qjetski.PPLNS-3.4-Linux.tar.gz`
 
 <br>
 
 ### **2️⃣ Extract the Miner (For PPLNS)**
 If you're using **PPLNS mining**, extract the .tar.gz file
 ```
-tar -xvzf qjetski.PPLNS-3.1.3-Linux.tar.gz
-cd qjetski.PPLNS-3.1.3-Linux
+tar -xvzf qjetski.PPLNS-3.4-Linux.tar.gz
+cd qjetski.PPLNS-3.4-Linux
 ```
 
 <br>
