@@ -260,7 +260,7 @@ Once downloaded, open the `start.bat` file and update it with your settings
 
 ### <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWx2ZjZodXlpbmNqb2V1NjRvNno2aXlrbWowamJjem1wNXNnNGV6bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2I0Akxup0XNSw/giphy.gif" width="30px"> SOLO: <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWx2ZjZodXlpbmNqb2V1NjRvNno2aXlrbWowamJjem1wNXNnNGV6bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2I0Akxup0XNSw/giphy.gif" width="30px">
 
-- **SOLO Mining CPU:** `docker run --rm jetskipool/miner:qjetski-pplns-cpu -w WALLET`
+- **SOLO Mining CPU:** `docker run --rm jetskipool/miner:qjetski-solo-cpu -w WALLET`
 - **SOLO Mining GPU:** `docker run --gpus all --rm jetskipool/miner:qjetski-solo-gpu -w WALLET`
 
 - **Example:**
