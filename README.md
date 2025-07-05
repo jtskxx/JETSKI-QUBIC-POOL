@@ -286,5 +286,5 @@ Docker images are available for large-scale deployments. These images are ideal 
 
 - **PPLNS Mining CPU:** `docker run --rm jetskipool/miner:qjetski-pplns-cpu -w WALLET`
 - **PPLNS Mining GPU:** `docker run --gpus all --rm jetskipool/miner:qjetski-pplns-gpu -w WALLET`
-- **SOLO Mining CPU:** `docker run --rm jetskipool/miner:qjetski-pplns-cpu -w WALLET`
+- **SOLO Mining CPU:** `docker run --rm jetskipool/miner:qjetski-solo-cpu -w WALLET`
 - **SOLO Mining GPU:** `docker run --gpus all --rm jetskipool/miner:qjetski-solo-gpu -w WALLET`
