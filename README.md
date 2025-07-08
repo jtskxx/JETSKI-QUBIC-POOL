@@ -27,7 +27,6 @@
 4. <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="18px"> [Windows Setup](#-windows-setup-)
 5. 🌊 [MacOS-CLI Setup](#-macos-cli-setup-)
 6. ⛵ [Docker Setup](#-docker-setup-)
-7. 🔥 [Recommended GPU Overclocks](#recommended-gpu-overclocks)  
 
 <br/>
 
@@ -102,13 +101,6 @@ You can view your **XMR stats** along with the total sols by wallet on the respe
 | ---- |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ```"xmrMining":``` | `true` | Enable or disable XMR mining |
 | ```"xmrGpu":``` | `false` | Enable or disable GPU mining |
-
-<br>
-
-## 💦Recommended GPU overclocks💦
-
-3000 series ```nvtool --setcoreoffset 150 --setclocks 1500 --setmem 5001 --setmemoffset 2000```  
-4000 series ```nvtool --setcoreoffset 150 --setclocks 2400 --setmem 7001 --setmemoffset 2000``` 
 
 <br>
 
