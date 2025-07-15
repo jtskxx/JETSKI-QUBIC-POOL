@@ -89,7 +89,7 @@ nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 
 During **Qubic Idling**, the **QXMR Proof-of-Concept (POC)** starts automatically. Each valid share is rewarded as an **extra bonus** in Qubic
 
-**CPU mining of XMR is mandatory**, as the shares are tied to the pool computors identities and are required to maintain **100%** of pool revenue
+**CPU mining of QXMR is mandatory**, as the shares are tied to the pool computors identities and are required to maintain **100%** of pool revenue
 
 **QXMR mining** is enabled by **default** when CPU mining is active, no extra configuration is needed
 
