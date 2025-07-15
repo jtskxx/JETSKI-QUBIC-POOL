@@ -85,22 +85,21 @@ nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 "hugePages":xxxx
 ```
 
-## ⚙️ XMR Configuration
+## ⚙️ QXMR Configuration
 
-During **Qubic Idling**, the **XMR Proof-of-Concept (POC)** starts automatically. Each valid share is rewarded as an **extra bonus**
+During **Qubic Idling**, the **QXMR Proof-of-Concept (POC)** starts automatically. Each valid share is rewarded as an **extra bonus** in Qubic
 
 **CPU mining of XMR is mandatory**, as the shares are tied to the pool computors identities and are required to maintain **100%** of pool revenue
 
-**XMR mining** is enabled by **default** when CPU mining is active, no extra configuration is needed
+**QXMR mining** is enabled by **default** when CPU mining is active, no extra configuration is needed
 
-You can view your **XMR stats** along with the total sols by wallet on the respective dashboards
+You can view your **QXMR stats** along with the total sols by wallet on the respective dashboards
 
 
 
 | Setting | Default Value |Description                                                                                                                                                                                                                                  |
 | ---- |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ```"xmrMining":``` | `true` | Enable or disable XMR mining |
-| ```"xmrGpu":``` | `false` | Enable or disable GPU mining |
 
 <br>
 
@@ -153,7 +152,8 @@ Once downloaded, open the JSON configuration file and update it with your settin
 
 *Example configuration file:*
 
-![image](https://github.com/user-attachments/assets/3b9794e3-509c-4081-9be9-f7da93ce88bf)
+<img width="696" height="411" alt="image" src="https://github.com/user-attachments/assets/2204113c-98ac-4d5e-a19f-e14d76813ed1" />
+
 
 - Replace `WALLET-HERE` with your Qubic wallet address
 - Replace `ALIAS-HERE` with your worker's name
@@ -196,7 +196,8 @@ Once downloaded, open the `start.bat` file and update it with your settings
 
 *Example start.bat:*
 
-![Screenshot 2025-03-19 at 4 23 22 AM](https://github.com/user-attachments/assets/23f650f8-f11c-4a14-bb2c-e455cb0ebbe5)
+<img width="754" height="401" alt="image" src="https://github.com/user-attachments/assets/e3a7afbf-e206-4b7f-80c3-56daa4fe32b3" />
+
 
 - Enter your wallet address and worker name using the format `WALLET-WORKERNAME`
 - Enable or disable CPU mining with `true` or `false`
