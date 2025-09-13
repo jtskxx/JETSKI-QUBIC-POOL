@@ -65,7 +65,7 @@ nvidia-driver-update
 
 ### ☀️GPU mining☀️ ###
 ```
-nvtool OR EMPTY TO USE HIVEOS DASHBOARD OC
+
 ```
 
 ### 🏖️CPU mining🏖️ ###
@@ -80,7 +80,6 @@ nvtool OR EMPTY TO USE HIVEOS DASHBOARD OC
 ```
 ### ⚡GPU+CPU (Dual mining)⚡ ###
 ```
-nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 "amountOfThreads":0
 "hugePages":xxxx
 ```
