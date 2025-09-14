@@ -53,7 +53,7 @@ nvidia-driver-update
 <br/>
 
 > [!NOTE]
-> **QUBJETSKI.AI version with GPU idling management, most profitable coin selection and payouts converted into Qubic is available here**
+> **QUBJETSKI.AI with GPU idle management that automatically mines the most profitable coins and converts payouts into Qubic is available here**
 > 
 > **▶️https://github.com/jtskxx/JETSKI-QUBIC-POOL/releases/tag/qubjetskiAI**
 
