@@ -19,11 +19,11 @@
 
 ## <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjh0bW1nb3lpYzMwY2h1bWs2MWt0NWZsdzdiNWRrN3NzNm85MGR3MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/sUEkwdECIoepv2Caib/giphy.gif" width = 60px> Summary <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjh0bW1nb3lpYzMwY2h1bWs2MWt0NWZsdzdiNWRrN3NzNm85MGR3MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/sUEkwdECIoepv2Caib/giphy.gif" width = 60px>
 
-1. 🌴 [HiveOS Setup](#%EF%B8%8F-flight-sheet-configuration)  
-2. 🥥 [Linux Setup](#-linux-setup-)
-3. <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="18px"> [Windows Setup](#-windows-setup-)
-4. 🌊 [MacOS Setup](#-macos-setup-)
-5. ⛵ [Docker Setup](#-docker-setup-)
+### 1. **🌴 [HiveOS Setup](#%EF%B8%8F-flight-sheet-configuration)** 
+### 2. **🥥 [Linux Setup](#-linux-setup-)**
+### 3. **<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="18px"> [Windows Setup](#-windows-setup-)**
+### 4. **🌊 [MacOS Setup](#-macos-setup-)**
+### 5. **⛵ [Docker Setup](#-docker-setup-)**
 
 <br/>
 
