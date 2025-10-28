@@ -109,10 +109,10 @@ You can view your **QXMR stats** along with the total sols by wallet on the resp
 ```
 <br>
 
-|  **Setting**		|  **Description** 	|
+|  Setting		|  Description 	|
 |---	|---	|
-|  **command** 	|  The command/program to execute	|
-|  **arguments** 	|  The arguments that should be passed to the command/program	|
+|  `command` 	|  The command/program to execute	|
+|  `arguments` 	|  The arguments that should be passed to the command/program	|
 
 <br>
 
