@@ -81,7 +81,7 @@
 
 ## ⚙️ QXMR Configuration
 
-During **Qubic Idling**, the **QXMR Proof-of-Concept (PoC)** starts automatically. **Each valid share is paid in Qubic**
+**During Qubic Idling, the QXMR Proof-of-Concept (PoC) starts automatically, each valid share is paid in Qubic**
 
 **QXMR mining** is mandatory and enabled by **default** when CPU mining is active, no extra configuration is needed
 
@@ -194,14 +194,13 @@ cd qjetski.PPLNS-x.x-Linux
 
 > [!IMPORTANT]
 >
-> **Idle mining can be skipped** – press `Enter` twice when prompted for the idle command & argument. Your device will stay idle during the switching phase
+> **Idle mining can be skipped – press `Enter` twice when prompted for the idle command & argument, your device will stay idle during the switching phase**
 > 
-> Do not modify `start.bat`, as it is linked to the mining pool
+> **Do not modify `start.bat`, as it is linked to the mining pool**
 >
-> You can run the **miner executable directly** to reuse the last-used settings
+> **You can run the **miner executable directly** to reuse the last-used settings**
 >
->
-> Relaunch `start.bat` anytime to adjust your configuration settings💡
+> **Relaunch `start.bat` anytime to adjust your configuration settings💡**
 
 ### **✅ You're now ready to start mining! 🚀💰**
 
@@ -221,19 +220,13 @@ cd qjetski.PPLNS-x.x-Linux
 <br>
 
 ### **2️⃣ Launch the Miner**
-> ⚠️Mac users with a single laptop must use the CPU Version⚠️
 
-### <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExazVyOWV6N2ZoMXFnb2lheDJlaTBqOHp5d2J3ZTRvZmxkajNwOWtibiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q2tN4Ewh5uUtlWDgoI/giphy.gif" width="30px"> PPLNS: <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExazVyOWV6N2ZoMXFnb2lheDJlaTBqOHp5d2J3ZTRvZmxkajNwOWtibiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q2tN4Ewh5uUtlWDgoI/giphy.gif" width="30px">
+### <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWx2ZjZodXlpbmNqb2V1NjRvNno2aXlrbWowamJjem1wNXNnNGV6bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2I0Akxup0XNSw/giphy.gif" width="30px"> PPLNS: <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWx2ZjZodXlpbmNqb2V1NjRvNno2aXlrbWowamJjem1wNXNnNGV6bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2I0Akxup0XNSw/giphy.gif" width="30px">
 
 - **PPLNS Mining CPU:** `docker run --rm jetskipool/miner:qjetski-pplns-cpu -w WALLET`
 - **PPLNS Mining GPU:** `docker run --gpus all --rm jetskipool/miner:qjetski-pplns-gpu -w WALLET`
 
-### <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWx2ZjZodXlpbmNqb2V1NjRvNno2aXlrbWowamJjem1wNXNnNGV6bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2I0Akxup0XNSw/giphy.gif" width="30px"> SOLO: <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWx2ZjZodXlpbmNqb2V1NjRvNno2aXlrbWowamJjem1wNXNnNGV6bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2I0Akxup0XNSw/giphy.gif" width="30px">
-
-- **SOLO Mining CPU:** `docker run --rm jetskipool/miner:qjetski-solo-cpu -w WALLET`
-- **SOLO Mining GPU:** `docker run --gpus all --rm jetskipool/miner:qjetski-solo-gpu -w WALLET`
-
-- **Example:**
+**Example:**
 ```sh
 docker run --rm jetskipool/miner:qjetski-pplns-cpu -w ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHI
 ```
@@ -258,3 +251,8 @@ Docker images are available for large-scale deployments, these images are ideal 
 - **PPLNS Mining GPU:** `docker run --gpus all --rm jetskipool/miner:qjetski-pplns-gpu -w WALLET`
 - **SOLO Mining CPU:** `docker run --rm jetskipool/miner:qjetski-solo-cpu -w WALLET`
 - **SOLO Mining GPU:** `docker run --gpus all --rm jetskipool/miner:qjetski-solo-gpu -w WALLET`
+
+You can run **CPU + GPU** mining simultaneously using the GPU version of the miner
+
+To do so, add the following flags to your command:
+`-cpu -gpu -w WALLET`
