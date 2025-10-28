@@ -48,7 +48,7 @@
 
 
 > [!IMPORTANT]
-> **For instance: `"%WAL%-%WORKER_NAME%"`**
+> **For instance: `%WAL%-%WORKER_NAME%`**
 >
 > **`%WAL%-` will use the Qubic wallet address that you configured in your HiveOS account**
 >
@@ -81,13 +81,10 @@
 
 ## ⚙️ QXMR Configuration
 
-During **Qubic Idling**, the **QXMR Proof-of-Concept (PoC)** starts automatically. Each valid share is paid in Qubic
+During **Qubic Idling**, the **QXMR Proof-of-Concept (PoC)** starts automatically. **Each valid share is paid in Qubic**
 
-**CPU mining of QXMR is mandatory**, as the shares are tied to the pool computors identities and are required to maintain **100%** of pool revenue
+**QXMR mining** is mandatory and enabled by **default** when CPU mining is active, no extra configuration is needed
 
-**QXMR mining** is enabled by **default** when CPU mining is active, no extra configuration is needed
-
-You can view your **QXMR stats** along with the total sols by wallet on the respective dashboards
 
 
 
