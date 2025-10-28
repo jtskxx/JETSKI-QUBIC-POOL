@@ -142,8 +142,8 @@ cd qjetski.PPLNS-x.x-Linux
 <img width="696" height="411" alt="image" src="https://github.com/user-attachments/assets/2204113c-98ac-4d5e-a19f-e14d76813ed1" />
 
 
-- Replace `WALLET-HERE` with your **Qubic wallet address**
-- Replace `ALIAS-HERE` with your **worker name**
+- Replace `WALLET-HERE` with your **Qubic Wallet address**
+- Replace `ALIAS-HERE` with your **Worker Name**
 
 > [!NOTE]
 >If `"alias": null,` the miner will automatically use your device's hostname *(useful for easy deployment)*
@@ -184,7 +184,7 @@ cd qjetski.PPLNS-x.x-Linux
 <img width="754" height="401" alt="image" src="https://github.com/user-attachments/assets/e3a7afbf-e206-4b7f-80c3-56daa4fe32b3" />
 
 
-- **Enter your wallet address** and **worker name** using the format `WALLET-WORKERNAME`
+- **Enter your Wallet Address** and **Worker Name** using the format `WALLET-WORKERNAME`
 - **Enable or disable** CPU mining with `true` or `false`
 - **Enable or disable** GPU mining with `true` or `false`
 - **Set your Idle mining configuration**
@@ -203,9 +203,8 @@ cd qjetski.PPLNS-x.x-Linux
 >
 > You can run the **miner executable directly** to reuse the last-used settings
 >
-> Update your `WALLET-WORKERNAME` in `alias.txt` if needed
 >
-> Change ``CPU/GPU & Idle config`` by relaunching start.bat
+> Relaunch `start.bat` anytime to adjust your configuration settings💡
 
 ### **✅ You're now ready to start mining! 🚀💰**
 
@@ -214,15 +213,11 @@ cd qjetski.PPLNS-x.x-Linux
 # <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2dobmcxcWJvMXo0Ym1wNWFnd3Fpa3g0ZmM2M2xvdWhwcG15amtqMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3oKIPic2BnoVZkRla8/giphy.gif" width="30px"> MacOS Setup <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2dobmcxcWJvMXo0Ym1wNWFnd3Fpa3g0ZmM2M2xvdWhwcG15amtqMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3oKIPic2BnoVZkRla8/giphy.gif" width="30px">
 
 > [!NOTE]
-> Currently, only macOS devices with Intel CPUs are supported for mining. Support for Apple Silicon (ARM) is coming soon, which will also enable mining on mobile devices with ARM architecture.
-
-
-
-### **To start mining on a MacOS distribution, follow these steps:**
+> **Currently, only macOS devices with Intel CPUs are supported for mining. Support for Apple Silicon (ARM) is coming soon, which will also enable mining on mobile devices with ARM architecture**
 
 ### **1️⃣ Download Docker**
-- **Step 1:** Open the Terminal app on your Mac. You can find it by typing `Terminal` into the macOS Spotlight Search (press **Cmd + Space** to open it).
-- **Step 2:** Once the terminal window is open, paste the script and press **Enter** to run it.
+- **Step 1:** Open the Terminal app on your Mac. You can find it by typing `Terminal` into the macOS Spotlight Search *(press **Cmd + Space** to open it)*
+- **Step 2:** Once the terminal window is open, paste the script and press **Enter** to run it
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && brew install --cask docker && open -a Docker && while ! docker system info > /dev/null 2>&1; do sleep 1; done
 ```
@@ -246,7 +241,7 @@ cd qjetski.PPLNS-x.x-Linux
 docker run --rm jetskipool/miner:qjetski-pplns-cpu -w ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHI
 ```
 
-You can run **CPU + GPU** mining simultaneously using the GPU version of the miner.
+You can run **CPU + GPU** mining simultaneously using the GPU version of the miner
 
 To do so, add the following flags to your command:
 `-cpu -gpu -w WALLET`
@@ -256,7 +251,7 @@ To do so, add the following flags to your command:
 # <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXVtcGNwZDd1Z2tldjE5NXNyOTc0M2R0bmhnazg0ZDl4aGQxZmZieSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ViCcQEvD4yYHUZKguG/giphy.gif" width="30px"> Docker Setup <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXVtcGNwZDd1Z2tldjE5NXNyOTc0M2R0bmhnazg0ZDl4aGQxZmZieSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ViCcQEvD4yYHUZKguG/giphy.gif" width="30px">
 
 ### **Docker Deployment:**
-Docker images are available for large-scale deployments. These images are ideal for use with rental platforms such as Vast.ai, Salad, and Clore.AI.
+Docker images are available for large-scale deployments, these images are ideal for use with rental platforms such as Vast.ai, Salad, and Clore.AI
 
 **Below are the available Docker images and their corresponding run options:**
 
