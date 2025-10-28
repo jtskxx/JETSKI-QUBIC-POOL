@@ -8,40 +8,27 @@
 	<img align="right" width=200px height=200px alt="side_sticker" src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" />
 </div>
 
+### <a target="blank"><img align="center" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHhteGhqYThkMjU3YnBpdTF5b2JrZGhvZDBicjdrbno5ZnBhdDBhNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cj87CxfRtrUifF3Ryk/giphy.gif" height="30" width="40" /></a> Mining Dashboard <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1ramN2N3lnZXFrajNod2VzcGhmcWM3ZG56YmVhbGx0NDc0ZGFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/clOgAGJ5iR1RVx5GUl/giphy.gif" width="18px"> https://explorer.jetskipool.ai/pool
+
 ### <a target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" height="30" width="40" /></a> Discord Server <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1ramN2N3lnZXFrajNod2VzcGhmcWM3ZG56YmVhbGx0NDc0ZGFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/clOgAGJ5iR1RVx5GUl/giphy.gif" width="18px"> https://discord.jetskipool.ai/
 
-### <picture> <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWM4M3ZmNjdqODJ2cjRnNTVtOWRmb2dtam5lZ2h4Y2htYnY4d2tpbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/yo1whaKkz38ME/giphy.gif" height="25" width = 24px>  </picture> Pool Dashboard <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1ramN2N3lnZXFrajNod2VzcGhmcWM3ZG56YmVhbGx0NDc0ZGFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/clOgAGJ5iR1RVx5GUl/giphy.gif" width="18px"> https://explorer.jetskipool.ai/pool
-### <picture> <img src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHhteGhqYThkMjU3YnBpdTF5b2JrZGhvZDBicjdrbno5ZnBhdDBhNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cj87CxfRtrUifF3Ryk/giphy.gif" width = 30px>  </picture> SOLO Dashboard <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1ramN2N3lnZXFrajNod2VzcGhmcWM3ZG56YmVhbGx0NDc0ZGFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/clOgAGJ5iR1RVx5GUl/giphy.gif" width="18px"> https://qubic.jetskipool.ai/
-### <picture> <img src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHhteGhqYThkMjU3YnBpdTF5b2JrZGhvZDBicjdrbno5ZnBhdDBhNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cj87CxfRtrUifF3Ryk/giphy.gif" width = 30px>  </picture> PPLNS Dashboard <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1ramN2N3lnZXFrajNod2VzcGhmcWM3ZG56YmVhbGx0NDc0ZGFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/clOgAGJ5iR1RVx5GUl/giphy.gif" width="18px"> https://pplns.jetskipool.ai/
 
-### <picture> <img src = "https://xelis.herominers.com/favicon/android-chrome-512x512.png" width = 23px>  </picture> XELSKI (IDLE) <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1ramN2N3lnZXFrajNod2VzcGhmcWM3ZG56YmVhbGx0NDc0ZGFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/clOgAGJ5iR1RVx5GUl/giphy.gif" width="18px"> https://xelskipool.xyz/
 
 
 <br/>
 
 ## <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjh0bW1nb3lpYzMwY2h1bWs2MWt0NWZsdzdiNWRrN3NzNm85MGR3MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/sUEkwdECIoepv2Caib/giphy.gif" width = 60px> Summary <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjh0bW1nb3lpYzMwY2h1bWs2MWt0NWZsdzdiNWRrN3NzNm85MGR3MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/sUEkwdECIoepv2Caib/giphy.gif" width = 60px>
 
-1. ⚙️ [NVIDIA GPU Requirements](#%EF%B8%8F-nvidia-gpu-requirements)  
-2. 🌴 [HiveOS Setup](#%EF%B8%8F-flight-sheet-configuration)  
-3. 🥥 [Linux-CLI Setup](#-linux-cli-setup-)
-4. <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="18px"> [Windows Setup](#-windows-setup-)
-5. 🌊 [MacOS-CLI Setup](#-macos-cli-setup-)
-6. ⛵ [Docker Setup](#-docker-setup-)
+1. 🌴 [HiveOS Setup](#%EF%B8%8F-flight-sheet-configuration)  
+2. 🥥 [Linux Setup](#-linux-setup-)
+3. <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="18px"> [Windows Setup](#-windows-setup-)
+4. 🌊 [MacOS Setup](#-macos-setup-)
+5. ⛵ [Docker Setup](#-docker-setup-)
 
 <br/>
 
-### **⚙️ NVIDIA GPU Requirements**
-> [!NOTE]
-> To update your NVIDIA GPU driver on HiveOS, please run the following command
-```sh
-nvidia-driver-update
-```
-- **NVIDIA 3000 Series:** Driver version **535+** or newer.
-- **NVIDIA 4000 Series:** Driver version **550+**.
-
-
 > [!IMPORTANT]
-> Ensure each of your workers has a **unique worker name**; **duplicate worker names is not allowed!**
+> **Ensure each of your workers has a unique worker name; duplicate worker names is not allowed!**
 
 <br/>
 
@@ -78,7 +65,7 @@ nvidia-driver-update
 
 ### 🏖️CPU mining🏖️ ###
 > [!NOTE]
-> "amountOfThreads":0 = All available Threads -1
+> **`"amountOfThreads":0` = All available Threads -1**
 >
 
 `Huge Pages: (100 x Numbers of threads)`
@@ -94,7 +81,7 @@ nvidia-driver-update
 
 ## ⚙️ QXMR Configuration
 
-During **Qubic Idling**, the **QXMR Proof-of-Concept (POC)** starts automatically. Each valid share is rewarded as an **extra bonus** in Qubic
+During **Qubic Idling**, the **QXMR Proof-of-Concept (PoC)** starts automatically. Each valid share is paid in Qubic
 
 **CPU mining of QXMR is mandatory**, as the shares are tied to the pool computors identities and are required to maintain **100%** of pool revenue
 
@@ -110,16 +97,11 @@ You can view your **QXMR stats** along with the total sols by wallet on the resp
 
 <br>
 
-## 🧪 Advanced Settings
-### <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3ludjVkdDAwOWF0aHJwbGJnd3RldmF0OHI5OGNwdHl4MzlqZjN4MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dHM/ITlBDhuVFZOrsGCUqu/giphy.gif" width="30px"> Idle Phase Feature <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3ludjVkdDAwOWF0aHJwbGJnd3RldmF0OHI5OGNwdHl4MzlqZjN4MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dHM/ITlBDhuVFZOrsGCUqu/giphy.gif" width="30px">
+## <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3ludjVkdDAwOWF0aHJwbGJnd3RldmF0OHI5OGNwdHl4MzlqZjN4MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dHM/ITlBDhuVFZOrsGCUqu/giphy.gif" width="30px"> Idle Phase Feature <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3ludjVkdDAwOWF0aHJwbGJnd3RldmF0OHI5OGNwdHl4MzlqZjN4MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dHM/ITlBDhuVFZOrsGCUqu/giphy.gif" width="30px">
 > [!NOTE]
-> During the Qubic idling phase, you can run another program or miner
+> **During the Qubic idling phase, you can run another program or miner. The example below is for mining on the Xelis pool (Xelski) https://xelskipool.xyz/**
 > 
-> The example below is for mining on the Xelis pool (Xelski) https://xelskipool.xyz/
-> 
-> Launch a flight sheet before with the correct miner and ensure its version matches the one in idle config
-> 
-> More examples are available on the pool Discord
+> **Launch a flight sheet before with the correct miner and ensure its version matches the one in idle config**
 
 - **Extra Config Arguments Example:**
 ```json
@@ -127,53 +109,51 @@ You can view your **QXMR stats** along with the total sols by wallet on the resp
 ```
 <br>
 
-|  Setting 		|  Description 	|
+|  **Setting**		|  **Description** 	|
 |---	|---	|
-|  command 	|  The command/program to execute	|
-|  arguments 	|  The arguments that should be passed to the command/program	|
+|  **command** 	|  The command/program to execute	|
+|  **arguments** 	|  The arguments that should be passed to the command/program	|
 
 <br>
 
-# <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2tsdHBlcnl4Z21leWc1aHNyejFmbXJkcjZ5YXJoM2RsMzQ2Z2JvdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30px"> Linux-CLI Setup <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2tsdHBlcnl4Z21leWc1aHNyejFmbXJkcjZ5YXJoM2RsMzQ2Z2JvdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30px">
-
-### **To start mining on a Linux distribution, follow these steps:**
+# <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2tsdHBlcnl4Z21leWc1aHNyejFmbXJkcjZ5YXJoM2RsMzQ2Z2JvdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30px"> Linux Setup <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2tsdHBlcnl4Z21leWc1aHNyejFmbXJkcjZ5YXJoM2RsMzQ2Z2JvdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30px">
 
 ### **1️⃣ Download the Miner**
-Go to https://download.jetskipool.ai/ to get the appropriate miner
-- **Solo Mining:** `qjetski-3.4-Linux.tar.gz`
-- **PPLNS Mining:** `qjetski.PPLNS-3.4-Linux.tar.gz`
+**Go to https://download.jetskipool.ai/ to get the appropriate miner**
+- **Solo Mining:** `qjetski-x.x-Linux.tar.gz`
+- **PPLNS Mining:** `qjetski.PPLNS-x.x-Linux.tar.gz`
 
 <br>
 
-### **2️⃣ Extract the Miner (For PPLNS)**
-If you're using **PPLNS mining**, extract the .tar.gz file
+### **2️⃣ Extract the Miner**
+**Extract the .tar.gz file**
 ```
-tar -xvzf qjetski.PPLNS-3.4-Linux.tar.gz
-cd qjetski.PPLNS-3.4-Linux
+tar -xvzf qjetski.PPLNS-x.x-Linux.tar.gz
+cd qjetski.PPLNS-x.x-Linux
 ```
 
 <br>
 
 ### **3️⃣ Configure the Miner**
-Once downloaded, open the JSON configuration file and update it with your settings
+**Once downloaded, open the JSON configuration file and update it with your settings**
 
 *Example configuration file:*
 
 <img width="696" height="411" alt="image" src="https://github.com/user-attachments/assets/2204113c-98ac-4d5e-a19f-e14d76813ed1" />
 
 
-- Replace `WALLET-HERE` with your Qubic wallet address
-- Replace `ALIAS-HERE` with your worker's name
+- Replace `WALLET-HERE` with your **Qubic wallet address**
+- Replace `ALIAS-HERE` with your **worker name**
 
 > [!NOTE]
 >If `"alias": null,` the miner will automatically use your device's hostname *(useful for easy deployment)*
 
 **Enable/disable CPU/GPU mining:**
-- `"cpu": true` ➡️ Enable CPU mining
-- `"gpu": false` ➡️ Disable GPU mining
+- `"cpu": true` ➡️ **Enable CPU mining**
+- `"gpu": false` ➡️ **Disable GPU mining**
 
 > [!IMPORTANT]
-> Do not modify the access token or pool address, as they are linked to the mining pool
+> **Do not modify the access token or pool address, as they are linked to the mining pool**
 
 ### **✅ You're now ready to start mining! 🚀💰**
 
@@ -181,38 +161,36 @@ Once downloaded, open the JSON configuration file and update it with your settin
 
 # <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="30px"> Windows Setup <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="30px">
 
-### **To start mining on a Windows distribution, follow these steps:**
-
 ### **1️⃣ Download the Miner**
-Go to https://download.jetskipool.ai/ to get the appropriate miner
-- **Solo Mining:** `qjetski-3.4-windows.zip`
-- **PPLNS Mining:** `qjetski-PPLNS-3.4-windows.zip`
+**Go to https://download.jetskipool.ai/ to get the appropriate miner**
+- **Solo Mining:** `qjetski-x.x-windows.zip`
+- **PPLNS Mining:** `qjetski-PPLNS-x.x-windows.zip`
 
 <br>
 
-### **2️⃣ Extract the Miner (For PPLNS)**
-If you're using **PPLNS mining**, extract the .zip file
+### **2️⃣ Extract the Miner**
+**Eextract the .zip file**
 
-- The **default Windows unzipper or WinRAR** can be used to decompress the file
-- Once extracted, navigate to the folder where the miner is located
+- **The default Windows unzipper or WinRAR can be used to decompress the file**
+- **Once extracted, navigate to the folder where the miner is located**
 
 <br>
 
 ### **3️⃣ Configure the Miner**
-Once downloaded, open the `start.bat` file and update it with your settings
+**Once downloaded, open the `start.bat` file and update it with your settings**
 
 *Example start.bat:*
 
 <img width="754" height="401" alt="image" src="https://github.com/user-attachments/assets/e3a7afbf-e206-4b7f-80c3-56daa4fe32b3" />
 
 
-- Enter your wallet address and worker name using the format `WALLET-WORKERNAME`
-- Enable or disable CPU mining with `true` or `false`
-- Enable or disable GPU mining with `true` or `false`
-- Set your Idle mining configuration
+- **Enter your wallet address** and **worker name** using the format `WALLET-WORKERNAME`
+- **Enable or disable** CPU mining with `true` or `false`
+- **Enable or disable** GPU mining with `true` or `false`
+- **Set your Idle mining configuration**
 
 > [!NOTE]
-> To set up an idle miner, move your idle miner file to the qjetski folder
+> **To set up an idle miner, move your idle miner file to the qjetski folder**
 
 - **Idle Command:** Enter the name of the program *(e.g., rigel.exe)*
 - **Idle Arguments:** Enter the program’s launch arguments
@@ -233,7 +211,7 @@ Once downloaded, open the `start.bat` file and update it with your settings
 
 <br>
 
-# <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2dobmcxcWJvMXo0Ym1wNWFnd3Fpa3g0ZmM2M2xvdWhwcG15amtqMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3oKIPic2BnoVZkRla8/giphy.gif" width="30px"> MacOS-CLI Setup <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2dobmcxcWJvMXo0Ym1wNWFnd3Fpa3g0ZmM2M2xvdWhwcG15amtqMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3oKIPic2BnoVZkRla8/giphy.gif" width="30px">
+# <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2dobmcxcWJvMXo0Ym1wNWFnd3Fpa3g0ZmM2M2xvdWhwcG15amtqMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3oKIPic2BnoVZkRla8/giphy.gif" width="30px"> MacOS Setup <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2dobmcxcWJvMXo0Ym1wNWFnd3Fpa3g0ZmM2M2xvdWhwcG15amtqMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3oKIPic2BnoVZkRla8/giphy.gif" width="30px">
 
 > [!NOTE]
 > Currently, only macOS devices with Intel CPUs are supported for mining. Support for Apple Silicon (ARM) is coming soon, which will also enable mining on mobile devices with ARM architecture.
