@@ -10,6 +10,8 @@
 
 ### <a target="blank"><img align="center" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHhteGhqYThkMjU3YnBpdTF5b2JrZGhvZDBicjdrbno5ZnBhdDBhNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cj87CxfRtrUifF3Ryk/giphy.gif" height="30" width="40" /></a> Mining Dashboard <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1ramN2N3lnZXFrajNod2VzcGhmcWM3ZG56YmVhbGx0NDc0ZGFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/clOgAGJ5iR1RVx5GUl/giphy.gif" width="18px"> https://explorer.jetskipool.ai/pool
 
+### <a target="blank"><img align="center" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzU3cWVudWFnOGh5a3BtNTh2YWRxMmY1bWw5bmx2djBiZnQyMXdhdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/UodgXAkvKK88ZzN7xH/giphy.gif" height="30" width="40" /></a> Payout Dashboard <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1ramN2N3lnZXFrajNod2VzcGhmcWM3ZG56YmVhbGx0NDc0ZGFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/clOgAGJ5iR1RVx5GUl/giphy.gif" width="18px"> https://explorer.jetskipool.ai/payout
+
 ### <a target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" height="30" width="40" /></a> Discord Server <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1ramN2N3lnZXFrajNod2VzcGhmcWM3ZG56YmVhbGx0NDc0ZGFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/clOgAGJ5iR1RVx5GUl/giphy.gif" width="18px"> https://discord.jetskipool.ai/
 
 
@@ -78,19 +80,6 @@
 "amountOfThreads":0
 "hugePages":xxxx
 ```
-
-## ⚙️ QXMR Configuration
-
-**During Qubic Idling, the QXMR Proof-of-Concept (PoC) starts automatically, each valid share is paid in Qubic**
-
-**QXMR mining** is mandatory and enabled by **default** when CPU mining is active, no extra configuration is needed
-
-
-
-
-| Setting | Default Value |Description                                                                                                                                                                                                                                  |
-| ---- |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ```"xmrMining":``` | `true` | Enable or disable XMR mining |
 
 <br>
 
