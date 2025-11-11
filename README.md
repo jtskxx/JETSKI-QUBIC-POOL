@@ -132,7 +132,7 @@ cd qjetski.PPLNS-x.x-Linux
 - Replace `ALIAS_HERE` with your **Worker Name**
 
 > [!NOTE]
->If `"alias": null,` the miner will automatically use your device's hostname *(useful for easy deployment)*
+>If `"alias": null,` the miner will automatically use your device's hostname *(useful for large deployment)*
 
 **Enable/disable CPU/GPU mining:**
 - `"cpu": true` ➡️ **Enable CPU mining**
@@ -155,7 +155,7 @@ cd qjetski.PPLNS-x.x-Linux
 <br>
 
 ### **2️⃣ Extract the Miner**
-**Eextract the .zip file**
+**Extract the .zip file**
 
 - **The default Windows unzipper or WinRAR can be used to decompress the file**
 - **Once extracted, navigate to the folder where the miner is located**
