@@ -128,8 +128,8 @@ cd qjetski.PPLNS-x.x-Linux
 <img width="696" height="411" alt="image" src="https://github.com/user-attachments/assets/2204113c-98ac-4d5e-a19f-e14d76813ed1" />
 
 
-- Replace `WALLET-HERE` with your **Qubic Wallet address**
-- Replace `ALIAS-HERE` with your **Worker Name**
+- Replace `WALLET_HERE` with your **Qubic Wallet address**
+- Replace `ALIAS_HERE` with your **Worker Name**
 
 > [!NOTE]
 >If `"alias": null,` the miner will automatically use your device's hostname *(useful for easy deployment)*
@@ -178,14 +178,12 @@ cd qjetski.PPLNS-x.x-Linux
 > [!NOTE]
 > **To set up an idle miner, move your idle miner file to the qjetski folder**
 
-- **Idle Command:** Enter the name of the program *(e.g., rigel.exe)*
-- **Idle Arguments:** Enter the program’s launch arguments
+- **Idle Command:** Enter the name of the program *(e.g. rigel.exe)*
+- **Idle Arguments:** Enter the program launch arguments
 
 > [!IMPORTANT]
 >
 > **Idle mining can be skipped – press `Enter` twice when prompted for the idle command & argument, your device will stay idle during the switching phase**
-> 
-> **Do not modify `start.bat`, as it is linked to the mining pool**
 >
 > **You can run the **miner executable directly** to reuse the last-used settings**
 >
