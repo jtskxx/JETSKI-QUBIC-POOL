@@ -105,43 +105,41 @@
 # <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2tsdHBlcnl4Z21leWc1aHNyejFmbXJkcjZ5YXJoM2RsMzQ2Z2JvdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30px"> Linux Setup <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2tsdHBlcnl4Z21leWc1aHNyejFmbXJkcjZ5YXJoM2RsMzQ2Z2JvdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30px">
 
 ### **1️⃣ Download the Miner**
-**Go to https://download.jetskipool.ai/ to get the appropriate miner**
-- **Solo Mining:** `qjetski-x.x-Linux.tar.gz`
-- **PPLNS Mining:** `qjetski.PPLNS-x.x-Linux.tar.gz`
+**Go to https://download.jetskipool.ai/ to download `qubjetski-Linux-v1.0.tar.gz`**
 
 <br>
 
 ### **2️⃣ Extract the Miner**
-**Extract the .tar.gz file**
 ```
-tar -xvzf qjetski.PPLNS-x.x-Linux.tar.gz
-cd qjetski.PPLNS-x.x-Linux
+tar -xvzf qubjetski-Linux-v1.0.tar.gz
+cd qubjetski-Linux-v1.0
 ```
-
 <br>
 
-### **3️⃣ Configure the Miner**
-**Once downloaded, open the JSON configuration file and update it with your settings**
+### **3️⃣ Launch the Miner**
 
-*Example configuration file:*
+Once downloaded, you can start the miner in two simple ways:
 
-<img width="696" height="411" alt="image" src="https://github.com/user-attachments/assets/2204113c-98ac-4d5e-a19f-e14d76813ed1" />
+### - **Quick Start (Wizard Mode)**
+Just run the miner directly and the setup wizard will guide you step-by-step
 
+### - **Advanced (Command Line Mode)**
+For large deployments, you can launch with custom flags
 
-- Replace `WALLET_HERE` with your **Qubic Wallet address**
-- Replace `ALIAS_HERE` with your **Worker Name**
+### ./qubjetski-Linux
 
-> [!NOTE]
->If `"alias": null,` the miner will automatically use your device's hostname *(useful for large deployment)*
-
-**Enable/disable CPU/GPU mining:**
-- `"cpu": true` ➡️ **Enable CPU mining**
-- `"gpu": false` ➡️ **Disable GPU mining**
-
-> [!IMPORTANT]
-> **Do not modify the access token or pool address, as they are linked to the mining pool**
-
-### **✅ You're now ready to start mining! 🚀💰**
+|  Setting 		|  Description 	|
+|---	|---	|
+|   `-wallet` |  **Your wallet address**  	|
+|  `-workername` |  **Set worker name/alias**	|
+|    `-cpu` |  **Enable CPU mining**	|
+|    `-threads`  	|  **Set number of CPU threads (0 = auto)**  	|
+|    `-gpu` | **Enable GPU mining** 	|
+|   `-pplns`  |  **Use PPLNS pool (default = SOLO)**	|
+|    `-xmr` |  **Enable XMR mining** 	|
+|    `-autoidle`  |  **Enable auto-idling mode**	|
+|   `-start`   |  **Start using existing appsettings.json**	|
+|   `-help ` |  **Show available commands**	|
 
 <br>
 
