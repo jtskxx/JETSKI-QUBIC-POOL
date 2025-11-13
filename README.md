@@ -118,7 +118,7 @@ cd qubjetski-Linux-v1.0
 
 ### **3️⃣ Launch the Miner**
 
-Once downloaded, you can start the miner in two simple ways:
+Once extracted, you can start the miner in two simple ways:
 
 ### - **Quick Start (Wizard Mode)**
 Just run the miner directly and the setup wizard will guide you step-by-step
@@ -160,7 +160,31 @@ For large deployments, you can launch with custom flags
 
 ### **3️⃣ Launch the Miner**
 
-Once downloaded, you can start the miner in two simple ways:
+Once extracted, double-click on `qubjetski-Miner.exe` and fill in the **Wallet Address** and **Worker Name** fields
+
+### Mining Options
+
+**CPU-only mining**
+`Enable CPU Mining` and `QXMR Mining`
+
+- CPU → used for AI Training
+- QXMR (CPU) → runs during the Idle phase
+
+**GPU-only mining**
+`Enable GPU Mining` and `Auto-Idling`
+
+- GPU → used for AI Training
+- Auto-Idling (GPU) → runs during the Idle phase
+
+**CPU + GPU mining**
+`Enable` all options: `CPU Mining, GPU Mining, QXMR Mining, and Auto-Idling`
+
+- CPU + GPU → both used for AI Training
+- QXMR runs on the CPU during the Idle phase
+- Auto-Idling runs on the GPU during the Idle phase
+
+> [!NOTE]
+> `Auto-Idling` handles Qubic idle phases and automatically mines the most profitable coin converting all rewards to Qubic
 
 <img width="1481" height="749" alt="image" src="https://github.com/user-attachments/assets/7860c089-0fa7-4c1d-8ccb-b6a3a54e851b" />
 
