@@ -146,9 +146,7 @@ For large deployments, you can launch with custom flags
 # <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="30px"> Windows Setup <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="30px">
 
 ### **1️⃣ Download the Miner**
-**Go to https://download.jetskipool.ai/ to get the appropriate miner**
-- **Solo Mining:** `qjetski-x.x-windows.zip`
-- **PPLNS Mining:** `qjetski-PPLNS-x.x-windows.zip`
+**Go to https://download.jetskipool.ai/ to download `qubjetski-Linux-v1.0.tar.gz`**
 
 <br>
 
@@ -160,34 +158,11 @@ For large deployments, you can launch with custom flags
 
 <br>
 
-### **3️⃣ Configure the Miner**
-**Once downloaded, open the `start.bat` file and update it with your settings**
+### **3️⃣ Launch the Miner**
 
-*Example start.bat:*
+Once downloaded, you can start the miner in two simple ways:
 
-<img width="754" height="401" alt="image" src="https://github.com/user-attachments/assets/e3a7afbf-e206-4b7f-80c3-56daa4fe32b3" />
-
-
-- **Enter your Wallet Address** and **Worker Name** using the format `WALLET-WORKERNAME`
-- **Enable or disable** CPU mining with `true` or `false`
-- **Enable or disable** GPU mining with `true` or `false`
-- **Set your Idle mining configuration**
-
-> [!NOTE]
-> **To set up an idle miner, move your idle miner file to the qjetski folder**
-
-- **Idle Command:** Enter the name of the program *(e.g. rigel.exe)*
-- **Idle Arguments:** Enter the program launch arguments
-
-> [!IMPORTANT]
->
-> **Idle mining can be skipped – press `Enter` twice when prompted for the idle command & argument, your device will stay idle during the switching phase**
->
-> **You can run the **miner executable directly** to reuse the last-used settings**
->
-> **Relaunch `start.bat` anytime to adjust your configuration settings💡**
-
-### **✅ You're now ready to start mining! 🚀💰**
+<img width="1481" height="749" alt="image" src="https://github.com/user-attachments/assets/7860c089-0fa7-4c1d-8ccb-b6a3a54e851b" />
 
 <br>
 
