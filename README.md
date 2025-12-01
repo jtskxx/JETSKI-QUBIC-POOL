@@ -73,12 +73,12 @@
 `Huge Pages: (100 x Numbers of threads)`
 ```
 "cpuOnly":"yes"
-"hugePages":xxxx
+"hugePages":1000
 ```
 ### ⚡GPU+CPU (Dual mining)⚡ ###
 ```
 "amountOfThreads":0
-"hugePages":xxxx
+"hugePages":1000
 ```
 
 <br>
