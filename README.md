@@ -41,14 +41,6 @@
 
 <br/>
 
-> [!NOTE]
-> **QUBJETSKI.AI version with GPU idle management that automatically mines the most profitable coins and converts payouts into Qubic is available here**
-> 
-> **▶️https://github.com/jtskxx/JETSKI-QUBIC-POOL/releases/tag/qubjetskiAI**
-
-![image](https://github.com/user-attachments/assets/ca0c3dfa-57d1-4df0-b38f-3f1ecbb0a454)
-
-
 > [!IMPORTANT]
 > **For instance: `%WAL%-%WORKER_NAME%`**
 >
@@ -83,11 +75,11 @@
 
 <br>
 
-## <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3ludjVkdDAwOWF0aHJwbGJnd3RldmF0OHI5OGNwdHl4MzlqZjN4MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dHM/ITlBDhuVFZOrsGCUqu/giphy.gif" width="30px"> Idle Phase Feature <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3ludjVkdDAwOWF0aHJwbGJnd3RldmF0OHI5OGNwdHl4MzlqZjN4MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dHM/ITlBDhuVFZOrsGCUqu/giphy.gif" width="30px">
+## <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3ludjVkdDAwOWF0aHJwbGJnd3RldmF0OHI5OGNwdHl4MzlqZjN4MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dHM/ITlBDhuVFZOrsGCUqu/giphy.gif" width="30px"> Manual Idle Mode <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3ludjVkdDAwOWF0aHJwbGJnd3RldmF0OHI5OGNwdHl4MzlqZjN4MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dHM/ITlBDhuVFZOrsGCUqu/giphy.gif" width="30px">
 > [!NOTE]
-> **During the Qubic idling phase, you can run another program or miner. The example below is for mining on the Xelis pool (Xelski) https://xelskipool.xyz/**
+> **Qubjetski handles Qubic idle phases automatically, mining the most profitable coin and converting rewards to Qubic**
 > 
-> **Launch a flight sheet before with the correct miner and ensure its version matches the one in idle config**
+> **For custom settings:**
 
 - **Extra Config Arguments Example:**
 ```json
