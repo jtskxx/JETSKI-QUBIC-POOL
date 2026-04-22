@@ -75,36 +75,17 @@
 
 <br>
 
-## <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3ludjVkdDAwOWF0aHJwbGJnd3RldmF0OHI5OGNwdHl4MzlqZjN4MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dHM/ITlBDhuVFZOrsGCUqu/giphy.gif" width="30px"> Manual Idle Mode <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3ludjVkdDAwOWF0aHJwbGJnd3RldmF0OHI5OGNwdHl4MzlqZjN4MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dHM/ITlBDhuVFZOrsGCUqu/giphy.gif" width="30px">
-> [!NOTE]
-> **Qubjetski handles Qubic idle phases automatically, mining the most profitable coin and converting rewards to Qubic**
-> 
-> **For custom settings:**
-
-- **Extra Config Arguments Example:**
-```json
-"idleSettings":{"command":"/hive/miners/rigel/1.21.2/rigel","arguments":"-a xelishashv2 -o stratum+tcp://fr.xelskipool.xyz:9191 -u XELWLT -w %WORKER_NAME%"}
-```
-<br>
-
-|  Setting		|  Description 	|
-|---	|---	|
-|  `command` 	|  The command/program to execute	|
-|  `arguments` 	|  The arguments that should be passed to the command/program	|
-
-<br>
-
 # <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2tsdHBlcnl4Z21leWc1aHNyejFmbXJkcjZ5YXJoM2RsMzQ2Z2JvdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30px"> Linux Setup <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2tsdHBlcnl4Z21leWc1aHNyejFmbXJkcjZ5YXJoM2RsMzQ2Z2JvdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30px">
 
 ### **1️⃣ Download the Miner**
-**Go to https://download.jetskipool.ai/ to download `qubjetski-Linux-v1.0.tar.gz`**
+**Go to https://download.jetskipool.ai/ to download `qubjetski-Linux-v2.0.tar.gz`**
 
 <br>
 
 ### **2️⃣ Extract the Miner**
 ```
-tar -xvzf qubjetski-Linux-v1.0.tar.gz
-cd qubjetski-Linux-v1.0
+tar -xvzf qubjetski-Linux-v2.0.tar.gz
+cd qubjetski-Linux-v2.0
 ```
 <br>
 
@@ -128,8 +109,6 @@ For large deployments, you can launch with custom flags
 |    `-threads`  	|  **Set number of CPU threads (0 = auto)**  	|
 |    `-gpu` | **Enable GPU mining** 	|
 |   `-pplns`  |  **Use PPLNS pool (default = SOLO)**	|
-|    `-xmr` |  **Enable XMR mining** 	|
-|    `-autoidle`  |  **Enable auto-idling mode**	|
 |   `-start`   |  **Start using existing appsettings.json**	|
 |   `-help ` |  **Show available commands**	|
 
@@ -138,7 +117,7 @@ For large deployments, you can launch with custom flags
 # <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="30px"> Windows Setup <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="30px">
 
 ### **1️⃣ Download the Miner**
-**Go to https://download.jetskipool.ai/ to download `qubjetski-Linux-v1.0.tar.gz`**
+**Go to https://download.jetskipool.ai/ to download `qubjetski-Linux-v2.0.tar.gz`**
 
 <br>
 
@@ -157,26 +136,19 @@ Once extracted, double-click on `qubjetski-Miner.exe` and fill in the **Wallet A
 ### Mining Options
 
 **CPU-only mining**
-`Enable CPU Mining` and `QXMR Mining`
+`Enable CPU Mining`
 
 - CPU → used for AI Training
-- QXMR (CPU) → runs during the Idle phase
 
 **GPU-only mining**
-`Enable GPU Mining` and `Auto-Idling`
+`Enable GPU Mining`
 
 - GPU → used for AI Training
-- Auto-Idling (GPU) → runs during the Idle phase
 
 **CPU + GPU mining**
-`Enable` all options: `CPU Mining, GPU Mining, QXMR Mining, and Auto-Idling`
+`Enable` all options: `CPU Mining, GPU Mining`
 
 - CPU + GPU → both used for AI Training
-- QXMR runs on the CPU during the Idle phase
-- Auto-Idling runs on the GPU during the Idle phase
-
-> [!NOTE]
-> `Auto-Idling` handles Qubic idle phases and automatically mines the most profitable coin converting all rewards to Qubic
 
 <img width="1481" height="749" alt="image" src="https://github.com/user-attachments/assets/7860c089-0fa7-4c1d-8ccb-b6a3a54e851b" />
 
