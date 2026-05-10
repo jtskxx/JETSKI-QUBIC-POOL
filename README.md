@@ -24,8 +24,7 @@
 1. **🌴 [HiveOS Setup](#%EF%B8%8F-flight-sheet-configuration)** 
 2. **🥥 [Linux Setup](#-linux-setup-)**
 3. **<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="18px"> [Windows Setup](#-windows-setup-)**
-4. **🌊 [MacOS Setup](#-macos-setup-)**
-5. **⛵ [Docker Setup](#-docker-setup-)**
+5. **🌊 [Docker Setup](#-docker-setup-)**
 
 <br/>
 
@@ -59,7 +58,7 @@
 
 ### 🏖️CPU mining🏖️ ###
 > [!NOTE]
-> **`"amountOfThreads":0` = All available Threads -1**
+> **`"amountOfThreads":0` = All available Threads**
 >
 
 `Huge Pages: (100 x Numbers of threads)`
@@ -78,14 +77,14 @@
 # <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2tsdHBlcnl4Z21leWc1aHNyejFmbXJkcjZ5YXJoM2RsMzQ2Z2JvdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30px"> Linux Setup <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2tsdHBlcnl4Z21leWc1aHNyejFmbXJkcjZ5YXJoM2RsMzQ2Z2JvdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30px">
 
 ### **1️⃣ Download the Miner**
-**Go to https://download.jetskipool.ai/ to download `qubjetski-Linux-v2.0.tar.gz`**
+**Go to https://download.jetskipool.ai/ to download `qubjetski-Linux-v3.0.tar.gz`**
 
 <br>
 
 ### **2️⃣ Extract the Miner**
 ```
-tar -xvzf qubjetski-Linux-v2.0.tar.gz
-cd qubjetski-Linux-v2.0
+tar -xvzf qubjetski-Linux-v3.0.tar.gz
+cd qubjetski-Linux-v3.0
 ```
 <br>
 
@@ -99,7 +98,7 @@ Just run the miner directly and the setup wizard will guide you step-by-step
 ### - **Advanced (Command Line Mode)**
 For large deployments, you can launch with custom flags
 
-### ./qubjetski-Linux
+### ./qubjetski-Client
 
 |  Setting 		|  Description 	|
 |---	|---	|
@@ -109,7 +108,7 @@ For large deployments, you can launch with custom flags
 |    `-threads`  	|  **Set number of CPU threads (0 = auto)**  	|
 |    `-gpu` | **Enable GPU mining** 	|
 |   `-pplns`  |  **Use PPLNS pool (default = SOLO)**	|
-|   `-start`   |  **Start using existing appsettings.json**	|
+|   `-start`   |  **Start the client**	|
 |   `-help ` |  **Show available commands**	|
 
 <br>
@@ -117,7 +116,7 @@ For large deployments, you can launch with custom flags
 # <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="30px"> Windows Setup <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="30px">
 
 ### **1️⃣ Download the Miner**
-**Go to https://download.jetskipool.ai/ to download `qubjetski-Linux-v2.0.tar.gz`**
+**Go to https://download.jetskipool.ai/ to download `qubjetski-Windows-v3.0.zip`**
 
 <br>
 
@@ -150,39 +149,8 @@ Once extracted, double-click on `qubjetski-Miner.exe` and fill in the **Wallet A
 
 - CPU + GPU → both used for AI Training
 
-<img width="1481" height="749" alt="image" src="https://github.com/user-attachments/assets/7860c089-0fa7-4c1d-8ccb-b6a3a54e851b" />
+<img width="1520" height="923" alt="win" src="https://github.com/user-attachments/assets/a17f66d9-97f3-4fe9-906c-f8587e3abd1a" />
 
-<br>
-
-# <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2dobmcxcWJvMXo0Ym1wNWFnd3Fpa3g0ZmM2M2xvdWhwcG15amtqMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3oKIPic2BnoVZkRla8/giphy.gif" width="30px"> MacOS Setup <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2dobmcxcWJvMXo0Ym1wNWFnd3Fpa3g0ZmM2M2xvdWhwcG15amtqMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3oKIPic2BnoVZkRla8/giphy.gif" width="30px">
-
-> [!NOTE]
-> **Currently, only macOS devices with Intel CPUs are supported for mining. Support for Apple Silicon (ARM) is coming soon, which will also enable mining on mobile devices with ARM architecture**
-
-### **1️⃣ Download Docker**
-- **Step 1:** Open the Terminal app on your Mac. You can find it by typing `Terminal` into the macOS Spotlight Search *(press **Cmd + Space** to open it)*
-- **Step 2:** Once the terminal window is open, paste the script and press **Enter** to run it
-```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && brew install --cask docker && open -a Docker && while ! docker system info > /dev/null 2>&1; do sleep 1; done
-```
-<br>
-
-### **2️⃣ Launch the Miner**
-
-### <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWx2ZjZodXlpbmNqb2V1NjRvNno2aXlrbWowamJjem1wNXNnNGV6bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2I0Akxup0XNSw/giphy.gif" width="30px"> PPLNS: <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWx2ZjZodXlpbmNqb2V1NjRvNno2aXlrbWowamJjem1wNXNnNGV6bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2I0Akxup0XNSw/giphy.gif" width="30px">
-
-- **PPLNS Mining CPU:** `docker run --rm jetskipool/miner:qjetski-pplns-cpu -w WALLET`
-- **PPLNS Mining GPU:** `docker run --gpus all --rm jetskipool/miner:qjetski-pplns-gpu -w WALLET`
-
-**Example:**
-```sh
-docker run --rm jetskipool/miner:qjetski-pplns-cpu -w ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHI
-```
-
-You can run **CPU + GPU** mining simultaneously using the GPU version of the miner
-
-To do so, add the following flags to your command:
-`-cpu -gpu -w WALLET`
 
 <br>
 
@@ -195,12 +163,18 @@ Docker images are available for large-scale deployments, these images are ideal 
 
 ### <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHF6YnhpMDV3ajFiZzh6aHgwbng0YzBseHdieHY2MTA5OHdudjM2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/HrRvnN7NuJy4InG4MV/giphy.gif" width="30px"> Quick Start Command: <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHF6YnhpMDV3ajFiZzh6aHgwbng0YzBseHdieHY2MTA5OHdudjM2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/HrRvnN7NuJy4InG4MV/giphy.gif" width="30px">
 
-- **PPLNS Mining CPU:** `docker run --rm jetskipool/miner:qjetski-pplns-cpu -w WALLET`
-- **PPLNS Mining GPU:** `docker run --gpus all --rm jetskipool/miner:qjetski-pplns-gpu -w WALLET`
-- **SOLO Mining CPU:** `docker run --rm jetskipool/miner:qjetski-solo-cpu -w WALLET`
-- **SOLO Mining GPU:** `docker run --gpus all --rm jetskipool/miner:qjetski-solo-gpu -w WALLET`
+- **CPU Mining :** `docker run --rm jetskipool/miner:qubjetski --pplns -w WALLET --cpu`
+- **GPU Mining :** `docker run --rm --gpus all jetskipool/miner:qubjetski --pplns -w WALLET --gpu`
+- **CPU+GPU Mining :** `docker run --rm --gpus all jetskipool/miner:qubjetski --pplns -w WALLET --cpu --gpu`
 
-You can run **CPU + GPU** mining simultaneously using the GPU version of the miner
+|  Setting 		|  Description 	|
+|---	|---	|
+|   `-wallet` |  **Your wallet address**  	|
+|  `-workername` |  **Set worker name/alias**	|
+|    `-cpu` |  **Enable CPU mining**	|
+|    `-threads`  	|  **Set number of CPU threads (0 = auto)**  	|
+|    `-gpu` | **Enable GPU mining** 	|
+|   `-pplns`  |  **Use PPLNS pool (default = SOLO)**	|
 
-To do so, add the following flags to your command:
-`-cpu -gpu -w WALLET`
+---
+<p align="center"><sub> LICENSED UNDER ANTI-MILITARY LICENSE</sub></p>
