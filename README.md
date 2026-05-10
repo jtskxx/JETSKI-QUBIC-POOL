@@ -98,7 +98,7 @@ Just run the miner directly and the setup wizard will guide you step-by-step
 ### - **Advanced (Command Line Mode)**
 For large deployments, you can launch with custom flags
 
-### ./qubjetski-Client
+### `./qubjetski-Client`
 
 |  Setting 		|  Description 	|
 |---	|---	|
