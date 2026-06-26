@@ -1,7 +1,7 @@
 # 🌊JETSKI QUBIC POOL🌊
 
 <div align="center">
-<h3> <picture> <img src = "https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F983705077590130719.gif%3Fv%3D1&w=64&q=75" width = 25px>  </picture> Join us to achieve true AI power powered by useful miners! <img src = "https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F983705077590130719.gif%3Fv%3D1&w=64&q=75" width = 25px
+<h3> <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHJjc3RvenNnNDZ5aWF2cWM3ZzU5ZGlmMm5xcDVuOGI0eWQycHQzNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/pi9gQ5MSYMRHB5sQsx/giphy.gif" width = 35px>  </picture> Join us to achieve true AI power powered by useful miners! <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHJjc3RvenNnNDZ5aWF2cWM3ZzU5ZGlmMm5xcDVuOGI0eWQycHQzNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/pi9gQ5MSYMRHB5sQsx/giphy.gif" width = 35px
 	<!--horizontal divider(gradiant)-->
 	
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
