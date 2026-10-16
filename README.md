@@ -1,12 +1,6 @@
 # 🌊JETSKI QUBIC POOL🌊
 
-<div align="center">
-<h3> <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHJjc3RvenNnNDZ5aWF2cWM3ZzU5ZGlmMm5xcDVuOGI0eWQycHQzNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/pi9gQ5MSYMRHB5sQsx/giphy.gif" width = 35px>  </picture> Join us to achieve true AI power powered by useful miners! <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHJjc3RvenNnNDZ5aWF2cWM3ZzU5ZGlmMm5xcDVuOGI0eWQycHQzNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/pi9gQ5MSYMRHB5sQsx/giphy.gif" width = 35px
-	<!--horizontal divider(gradiant)-->
-	
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-	<img align="right" width=200px height=200px alt="side_sticker" src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" />
-</div>
+
 
 ### Mining Dashboard <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1ramN2N3lnZXFrajNod2VzcGhmcWM3ZG56YmVhbGx0NDc0ZGFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/clOgAGJ5iR1RVx5GUl/giphy.gif" width="18px"> https://qubic.jetskipool.ai
 
