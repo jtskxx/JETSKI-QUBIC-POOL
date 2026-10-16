@@ -18,7 +18,6 @@
 1. **🌴 [HiveOS Setup](#%EF%B8%8F-flight-sheet-configuration)** 
 2. **🥥 [Linux Setup](#-linux-setup-)**
 3. **<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="18px"> [Windows Setup](#-windows-setup-)**
-5. **🌊 [Docker Setup](#-docker-setup-)**
 
 <br/>
 
@@ -146,29 +145,7 @@ Once extracted, double-click on `qubjetski-Miner.exe` and fill in the **Wallet A
 <img width="1520" height="923" alt="win" src="https://github.com/user-attachments/assets/a17f66d9-97f3-4fe9-906c-f8587e3abd1a" />
 
 
-<br>
 
-# <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXVtcGNwZDd1Z2tldjE5NXNyOTc0M2R0bmhnazg0ZDl4aGQxZmZieSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ViCcQEvD4yYHUZKguG/giphy.gif" width="30px"> Docker Setup <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXVtcGNwZDd1Z2tldjE5NXNyOTc0M2R0bmhnazg0ZDl4aGQxZmZieSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ViCcQEvD4yYHUZKguG/giphy.gif" width="30px">
-
-### **Docker Deployment:**
-Docker images are available for large-scale deployments, these images are ideal for use with rental platforms such as Vast.ai, Salad, and Clore.AI
-
-**Below are the available Docker images and their corresponding run options:**
-
-### <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHF6YnhpMDV3ajFiZzh6aHgwbng0YzBseHdieHY2MTA5OHdudjM2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/HrRvnN7NuJy4InG4MV/giphy.gif" width="30px"> Quick Start Command: <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHF6YnhpMDV3ajFiZzh6aHgwbng0YzBseHdieHY2MTA5OHdudjM2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/HrRvnN7NuJy4InG4MV/giphy.gif" width="30px">
-
-- **CPU Mining :** `docker run --rm jetskipool/miner:qubjetski --pplns -w WALLET --cpu`
-- **GPU Mining :** `docker run --rm --gpus all jetskipool/miner:qubjetski --pplns -w WALLET --gpu`
-- **CPU+GPU Mining :** `docker run --rm --gpus all jetskipool/miner:qubjetski --pplns -w WALLET --cpu --gpu`
-
-|  Setting 		|  Description 	|
-|---	|---	|
-|   `-wallet` |  **Your wallet address**  	|
-|  `-workername` |  **Set worker name/alias**	|
-|    `-cpu` |  **Enable CPU mining**	|
-|    `-threads`  	|  **Set number of CPU threads (0 = auto)**  	|
-|    `-gpu` | **Enable GPU mining** 	|
-|   `-pplns`  |  **Use PPLNS pool (default = SOLO)**	|
 
 ---
 <p align="center"><sub> LICENSED UNDER ANTI-MILITARY LICENSE</sub></p>
