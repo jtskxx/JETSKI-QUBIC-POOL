@@ -1,151 +1,143 @@
-# 🌊JETSKI QUBIC POOL🌊
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/jtskxx/JETSKI-Miner/HEAD/assets/jetski-miner.svg" alt="JETSKI" width="800">
+
+<h1>QUBJETSKI (QUBIC)</h1>
 
 
+<p>
+  <a href="https://github.com/jtskxx/Jetski-Qubic-Pool/releases"><img src="https://img.shields.io/github/downloads/jtskxx/Jetski-Qubic-Pool/total?style=flat-square&amp;color=0078D4" alt="Total GitHub release downloads"></a>
+  <img src="https://img.shields.io/badge/mining-CPU%20%7C%20GPU-76B900?style=flat-square" alt="CPU and GPU mining">
+  <img src="https://img.shields.io/badge/payout-SOLO%20%7C%20PPLNS-E53935?style=flat-square" alt="SOLO and PPLNS payouts">
+  <img src="https://img.shields.io/badge/platform-Linux%20%7C%20Windows-0078D4?style=flat-square" alt="Linux and Windows">
+  <a href="#hiveos"><img src="https://img.shields.io/badge/HiveOS-custom%20miner-F5A623?style=flat-square" alt="HiveOS custom miner"></a>
+  <a href="https://discord.jetskipool.ai/"><img src="https://img.shields.io/badge/Discord-join-5865F2?style=flat-square" alt="Join the Discord server"></a>
+</p>
 
-### Mining Dashboard <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1ramN2N3lnZXFrajNod2VzcGhmcWM3ZG56YmVhbGx0NDc0ZGFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/clOgAGJ5iR1RVx5GUl/giphy.gif" width="18px"> https://qubic.jetskipool.ai
+<p>
+  <a href="https://qubic.jetskipool.ai"><strong>Dashboard</strong></a> ·
+  <a href="https://download.jetskipool.ai/">Download</a> ·
+  <a href="#quick-start">Quick start</a> ·
+  <a href="#mining-modes">Mining modes</a> ·
+  <a href="#options">Options</a> ·
+  <a href="#hiveos">HiveOS</a>
+</p>
 
-### Payout Dashboard <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1ramN2N3lnZXFrajNod2VzcGhmcWM3ZG56YmVhbGx0NDc0ZGFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/clOgAGJ5iR1RVx5GUl/giphy.gif" width="18px"> https://qubic.jetskipool.ai/payout
+</div>
 
-### Discord Server <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1ramN2N3lnZXFrajNod2VzcGhmcWM3ZG56YmVhbGx0NDc0ZGFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/clOgAGJ5iR1RVx5GUl/giphy.gif" width="18px"> https://discord.jetskipool.ai/
+## Pool
 
-
-
-
-<br/>
-
-## <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjh0bW1nb3lpYzMwY2h1bWs2MWt0NWZsdzdiNWRrN3NzNm85MGR3MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/sUEkwdECIoepv2Caib/giphy.gif" width = 60px> Summary <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjh0bW1nb3lpYzMwY2h1bWs2MWt0NWZsdzdiNWRrN3NzNm85MGR3MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/sUEkwdECIoepv2Caib/giphy.gif" width = 60px>
-
-1. **🌴 [HiveOS Setup](#%EF%B8%8F-flight-sheet-configuration)** 
-2. **🥥 [Linux Setup](#-linux-setup-)**
-3. **<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="18px"> [Windows Setup](#-windows-setup-)**
-
-<br/>
+| Page | Link |
+| --- | --- |
+| Mining dashboard | [qubic.jetskipool.ai](https://qubic.jetskipool.ai) |
+| Payout dashboard | [qubic.jetskipool.ai/payout](https://qubic.jetskipool.ai/payout) |
+| Discord server | [discord.jetskipool.ai](https://discord.jetskipool.ai/) |
 
 > [!IMPORTANT]
-> **Ensure each of your workers has a unique worker name; duplicate worker names is not allowed!**
+> **Every worker needs a unique worker name. Duplicate worker names are not allowed**
 
-<br/>
+## Quick start
 
-## ✈️ Flight Sheet Configuration
+Download the miner from **[download.jetskipool.ai](https://download.jetskipool.ai/)**:
 
-### Solo Mining <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1ramN2N3lnZXFrajNod2VzcGhmcWM3ZG56YmVhbGx0NDc0ZGFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/clOgAGJ5iR1RVx5GUl/giphy.gif" width="18px"> https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/latest/qubjetski-latest.tar.gz
-### PPLNS Mining <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1ramN2N3lnZXFrajNod2VzcGhmcWM3ZG56YmVhbGx0NDc0ZGFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/clOgAGJ5iR1RVx5GUl/giphy.gif" width="18px"> https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/latest/qubjetski.PPLNS-latest.tar.gz
+| Platform | File |
+| --- | --- |
+| Linux | `qubjetski-Linux-v4.5.tar.gz` |
+| Windows | `qubjetski-Windows-v4.5.zip` |
 
-<br/>
+Then launch the setup wizard:
 
-> [!IMPORTANT]
-> **For instance: `%WAL%-%WORKER_NAME%`**
->
-> **`%WAL%-` will use the Qubic wallet address that you configured in your HiveOS account**
->
-> **`-%WORKER_NAME%` will automatically use your HiveOS rig name without requiring you to replace it manually**
+- **Windows:** Extract the .zip, double-click `qubjetski-Miner.exe` and fill in **Wallet Address** and **Worker Name**
+- **Linux:** Extract the archive and run the client, the wizard guides you step by step
+
+```bash
+tar -xvzf qubjetski-Linux-v4.5.tar.gz
+cd qubjetski-Linux-v4.5
+./qubjetski-Client
+```
+
+For command-line setup, see [Options](#options); for HiveOS, see [HiveOS setup](#hiveos)
+
+<details>
+<summary><strong>Windows screenshot</strong></summary>
 
 <br>
 
-##  <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px" alt="Git"/>&nbsp;<b>Extra Config Arguments</b></p>
+<img width="1520" height="923" alt="qubjetski-Miner on Windows" src="https://github.com/user-attachments/assets/a17f66d9-97f3-4fe9-906c-f8587e3abd1a" />
 
-### ☀️GPU mining☀️ ###
+</details>
+
+## Mining modes
+
+CPU and GPU power is used for Qubic AI training. Mine with either one, or both at once
+
+| Hardware | Windows | Linux |
+| --- | --- | --- |
+| CPU only | Enable **CPU Mining** | `-cpu` |
+| GPU only | Enable **GPU Mining** | `-gpu` |
+| CPU + GPU | Enable **CPU Mining** and **GPU Mining** | `-cpu -gpu` |
+
+| Payout | Linux | HiveOS |
+| --- | --- | --- |
+| SOLO | Default | [SOLO installation URL](#hiveos) |
+| PPLNS | `-pplns` | [PPLNS installation URL](#hiveos) |
+
+## Options
+
+**Linux command-line options**
+
+```text
+./qubjetski-Client -wallet <wallet> -workername <worker> -gpu -start
 ```
 
-```
+| Option | Purpose |
+| --- | --- |
+| `-wallet ADDRESS` | Payout wallet address |
+| `-workername NAME` | Worker name/alias, must be unique |
+| `-cpu` | Enable CPU mining |
+| `-threads N` | CPU mining thread count, `0` = auto |
+| `-gpu` | Enable GPU mining |
+| `-pplns` | Use the PPLNS pool, default: SOLO |
+| `-start` | Start the client |
+| `-help` | Show available commands |
 
-### 🏖️CPU mining🏖️ ###
-> [!NOTE]
-> **`"amountOfThreads":0` = All available Threads**
->
+Running `./qubjetski-Client` without options starts the setup wizard. Command-line mode is handy for large deployments
 
-`Huge Pages: (100 x Numbers of threads)`
-```
+## HiveOS
+
+In your Flight Sheet, select **Custom** miner and enter:
+
+| Setting | Value |
+| --- | --- |
+| Installation URL (SOLO) | `https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/latest/qubjetski-latest.tar.gz` |
+| Installation URL (PPLNS) | `https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/latest/qubjetski.PPLNS-latest.tar.gz` |
+| Wallet and worker template | `%WAL%-%WORKER_NAME%` |
+| Extra config arguments | Depends on your hardware, see below |
+
+- **`%WAL%`** uses the Qubic wallet address configured in your HiveOS account
+- **`%WORKER_NAME%`** uses your HiveOS rig name automatically, no need to replace it manually
+
+**Extra config arguments**
+
+**GPU only:** No extra config arguments needed
+
+**CPU only**
+
+```text
 "cpuOnly":"yes"
 "hugePages":1000
 ```
-### ⚡GPU+CPU (Dual mining)⚡ ###
-```
+
+**CPU + GPU (dual mining)**
+
+```text
 "amountOfThreads":0
 "hugePages":1000
 ```
 
-<br>
+- `"amountOfThreads":0` uses all available threads
+- Set `"hugePages"` to 100 × your thread count, e.g. `1000` for 10 threads
 
-# <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2tsdHBlcnl4Z21leWc1aHNyejFmbXJkcjZ5YXJoM2RsMzQ2Z2JvdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30px"> Linux Setup <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2tsdHBlcnl4Z21leWc1aHNyejFmbXJkcjZ5YXJoM2RsMzQ2Z2JvdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30px">
+## Licence
 
-### **1️⃣ Download the Miner**
-**Go to https://download.jetskipool.ai/ to download `qubjetski-Linux-v3.5.tar.gz`**
-
-<br>
-
-### **2️⃣ Extract the Miner**
-```
-tar -xvzf qubjetski-Linux-v3.5.tar.gz
-cd qubjetski-Linux-v3.5
-```
-<br>
-
-### **3️⃣ Launch the Miner**
-
-Once extracted, you can start the miner in two simple ways:
-
-### - **Quick Start (Wizard Mode)**
-Just run the miner directly and the setup wizard will guide you step-by-step
-
-### - **Advanced (Command Line Mode)**
-For large deployments, you can launch with custom flags
-
-### `./qubjetski-Client`
-
-|  Setting 		|  Description 	|
-|---	|---	|
-|   `-wallet` |  **Your wallet address**  	|
-|  `-workername` |  **Set worker name/alias**	|
-|    `-cpu` |  **Enable CPU mining**	|
-|    `-threads`  	|  **Set number of CPU threads (0 = auto)**  	|
-|    `-gpu` | **Enable GPU mining** 	|
-|   `-pplns`  |  **Use PPLNS pool (default = SOLO)**	|
-|   `-start`   |  **Start the client**	|
-|   `-help ` |  **Show available commands**	|
-
-<br>
-
-# <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="30px"> Windows Setup <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGtnMHhjZzh3dTMwM3psZ2ZxNDFwbjB2b25zdWdvdzg0bW9nMWd2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/PhYTgixTZOrdFNrxHk/giphy.gif" width="30px">
-
-### **1️⃣ Download the Miner**
-**Go to https://download.jetskipool.ai/ to download `qubjetski-Windows-v3.0.zip`**
-
-<br>
-
-### **2️⃣ Extract the Miner**
-**Extract the .zip file**
-
-- **The default Windows unzipper or WinRAR can be used to decompress the file**
-- **Once extracted, navigate to the folder where the miner is located**
-
-<br>
-
-### **3️⃣ Launch the Miner**
-
-Once extracted, double-click on `qubjetski-Miner.exe` and fill in the **Wallet Address** and **Worker Name** fields
-
-### Mining Options
-
-**CPU-only mining**
-`Enable CPU Mining`
-
-- CPU → used for AI Training
-
-**GPU-only mining**
-`Enable GPU Mining`
-
-- GPU → used for AI Training
-
-**CPU + GPU mining**
-`Enable` all options: `CPU Mining, GPU Mining`
-
-- CPU + GPU → both used for AI Training
-
-<img width="1520" height="923" alt="win" src="https://github.com/user-attachments/assets/a17f66d9-97f3-4fe9-906c-f8587e3abd1a" />
-
-
-
-
----
-<p align="center"><sub> LICENSED UNDER ANTI-MILITARY LICENSE</sub></p>
+Licensed under **Anti-Military License**
